@@ -3,3 +3,4 @@
 export(Norm)
 export(cvm)
 export(normtest)
+import(latticeExtra)

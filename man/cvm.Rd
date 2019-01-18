@@ -22,8 +22,6 @@ function:two-sample Cramer-von Mises test for equal distributions
 \examples{
 \dontrun{
 attach(chickwts)
-install.packages('latticeExtra')
-library(latticeExtra)
 x <- sort(as.vector(weight[feed == "soybean"]))
 y <- sort(as.vector(weight[feed == "linseed"]))
 cvm1 <- cvm(x,y,"Example 8.1")

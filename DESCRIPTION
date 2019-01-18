@@ -6,7 +6,7 @@ Author: Kai Zhang
 Maintainer: Kai Zhang <zhkai96@mail.ustc.edu.cn>
 Description: Some functions using in StatComp
 License: GPL (>= 2)
-Imports: Rcpp (>= 0.12.16), microbenchmark, knitr, rmarkdown
+Imports: Rcpp (>= 0.12.16), microbenchmark, knitr, rmarkdown, latticeExtra
 LinkingTo: Rcpp
 Encoding: UTF-8
 Suggests: knitr, rmarkdown 

@@ -4,11 +4,10 @@
 #' @param y a vector of data
 #' @param data data sources
 #' @return Histogram of  data
+#' @import latticeExtra
 #' @examples
 #' \dontrun{
 #' attach(chickwts)
-#' install.packages('latticeExtra')
-#' library(latticeExtra)
 #' x <- sort(as.vector(weight[feed == "soybean"]))
 #' y <- sort(as.vector(weight[feed == "linseed"]))
 #' cvm1 <- cvm(x,y,"Example 8.1")

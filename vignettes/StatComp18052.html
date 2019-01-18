@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="author" content="By 18052" />
+
+<meta name="date" content="2018-01-01" />
+
+<title>Homework</title>
+
+
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+</style>
+
+
+
+<link href="data:text/css;charset=utf-8,body%20%7B%0Abackground%2Dcolor%3A%20%23fff%3B%0Amargin%3A%201em%20auto%3B%0Amax%2Dwidth%3A%20700px%3B%0Aoverflow%3A%20visible%3B%0Apadding%2Dleft%3A%202em%3B%0Apadding%2Dright%3A%202em%3B%0Afont%2Dfamily%3A%20%22Open%20Sans%22%2C%20%22Helvetica%20Neue%22%2C%20Helvetica%2C%20Arial%2C%20sans%2Dserif%3B%0Afont%2Dsize%3A%2014px%3B%0Aline%2Dheight%3A%201%2E35%3B%0A%7D%0A%23header%20%7B%0Atext%2Dalign%3A%20center%3B%0A%7D%0A%23TOC%20%7B%0Aclear%3A%20both%3B%0Amargin%3A%200%200%2010px%2010px%3B%0Apadding%3A%204px%3B%0Awidth%3A%20400px%3B%0Aborder%3A%201px%20solid%20%23CCCCCC%3B%0Aborder%2Dradius%3A%205px%3B%0Abackground%2Dcolor%3A%20%23f6f6f6%3B%0Afont%2Dsize%3A%2013px%3B%0Aline%2Dheight%3A%201%2E3%3B%0A%7D%0A%23TOC%20%2Etoctitle%20%7B%0Afont%2Dweight%3A%20bold%3B%0Afont%2Dsize%3A%2015px%3B%0Amargin%2Dleft%3A%205px%3B%0A%7D%0A%23TOC%20ul%20%7B%0Apadding%2Dleft%3A%2040px%3B%0Amargin%2Dleft%3A%20%2D1%2E5em%3B%0Amargin%2Dtop%3A%205px%3B%0Amargin%2Dbottom%3A%205px%3B%0A%7D%0A%23TOC%20ul%20ul%20%7B%0Amargin%2Dleft%3A%20%2D2em%3B%0A%7D%0A%23TOC%20li%20%7B%0Aline%2Dheight%3A%2016px%3B%0A%7D%0Atable%20%7B%0Amargin%3A%201em%20auto%3B%0Aborder%2Dwidth%3A%201px%3B%0Aborder%2Dcolor%3A%20%23DDDDDD%3B%0Aborder%2Dstyle%3A%20outset%3B%0Aborder%2Dcollapse%3A%20collapse%3B%0A%7D%0Atable%20th%20%7B%0Aborder%2Dwidth%3A%202px%3B%0Apadding%3A%205px%3B%0Aborder%2Dstyle%3A%20inset%3B%0A%7D%0Atable%20td%20%7B%0Aborder%2Dwidth%3A%201px%3B%0Aborder%2Dstyle%3A%20inset%3B%0Aline%2Dheight%3A%2018px%3B%0Apadding%3A%205px%205px%3B%0A%7D%0Atable%2C%20table%20th%2C%20table%20td%20%7B%0Aborder%2Dleft%2Dstyle%3A%20none%3B%0Aborder%2Dright%2Dstyle%3A%20none%3B%0A%7D%0Atable%20thead%2C%20table%20tr%2Eeven%20%7B%0Abackground%2Dcolor%3A%20%23f7f7f7%3B%0A%7D%0Ap%20%7B%0Amargin%3A%200%2E5em%200%3B%0A%7D%0Ablockquote%20%7B%0Abackground%2Dcolor%3A%20%23f6f6f6%3B%0Apadding%3A%200%2E25em%200%2E75em%3B%0A%7D%0Ahr%20%7B%0Aborder%2Dstyle%3A%20solid%3B%0Aborder%3A%20none%3B%0Aborder%2Dtop%3A%201px%20solid%20%23777%3B%0Amargin%3A%2028px%200%3B%0A%7D%0Adl%20%7B%0Amargin%2Dleft%3A%200%3B%0A%7D%0Adl%20dd%20%7B%0Amargin%2Dbottom%3A%2013px%3B%0Amargin%2Dleft%3A%2013px%3B%0A%7D%0Adl%20dt%20%7B%0Afont%2Dweight%3A%20bold%3B%0A%7D%0Aul%20%7B%0Amargin%2Dtop%3A%200%3B%0A%7D%0Aul%20li%20%7B%0Alist%2Dstyle%3A%20circle%20outside%3B%0A%7D%0Aul%20ul%20%7B%0Amargin%2Dbottom%3A%200%3B%0A%7D%0Apre%2C%20code%20%7B%0Abackground%2Dcolor%3A%20%23f7f7f7%3B%0Aborder%2Dradius%3A%203px%3B%0Acolor%3A%20%23333%3B%0Awhite%2Dspace%3A%20pre%2Dwrap%3B%20%0A%7D%0Apre%20%7B%0Aborder%2Dradius%3A%203px%3B%0Amargin%3A%205px%200px%2010px%200px%3B%0Apadding%3A%2010px%3B%0A%7D%0Apre%3Anot%28%5Bclass%5D%29%20%7B%0Abackground%2Dcolor%3A%20%23f7f7f7%3B%0A%7D%0Acode%20%7B%0Afont%2Dfamily%3A%20Consolas%2C%20Monaco%2C%20%27Courier%20New%27%2C%20monospace%3B%0Afont%2Dsize%3A%2085%25%3B%0A%7D%0Ap%20%3E%20code%2C%20li%20%3E%20code%20%7B%0Apadding%3A%202px%200px%3B%0A%7D%0Adiv%2Efigure%20%7B%0Atext%2Dalign%3A%20center%3B%0A%7D%0Aimg%20%7B%0Abackground%2Dcolor%3A%20%23FFFFFF%3B%0Apadding%3A%202px%3B%0Aborder%3A%201px%20solid%20%23DDDDDD%3B%0Aborder%2Dradius%3A%203px%3B%0Aborder%3A%201px%20solid%20%23CCCCCC%3B%0Amargin%3A%200%205px%3B%0A%7D%0Ah1%20%7B%0Amargin%2Dtop%3A%200%3B%0Afont%2Dsize%3A%2035px%3B%0Aline%2Dheight%3A%2040px%3B%0A%7D%0Ah2%20%7B%0Aborder%2Dbottom%3A%204px%20solid%20%23f7f7f7%3B%0Apadding%2Dtop%3A%2010px%3B%0Apadding%2Dbottom%3A%202px%3B%0Afont%2Dsize%3A%20145%25%3B%0A%7D%0Ah3%20%7B%0Aborder%2Dbottom%3A%202px%20solid%20%23f7f7f7%3B%0Apadding%2Dtop%3A%2010px%3B%0Afont%2Dsize%3A%20120%25%3B%0A%7D%0Ah4%20%7B%0Aborder%2Dbottom%3A%201px%20solid%20%23f7f7f7%3B%0Amargin%2Dleft%3A%208px%3B%0Afont%2Dsize%3A%20105%25%3B%0A%7D%0Ah5%2C%20h6%20%7B%0Aborder%2Dbottom%3A%201px%20solid%20%23ccc%3B%0Afont%2Dsize%3A%20105%25%3B%0A%7D%0Aa%20%7B%0Acolor%3A%20%230033dd%3B%0Atext%2Ddecoration%3A%20none%3B%0A%7D%0Aa%3Ahover%20%7B%0Acolor%3A%20%236666ff%3B%20%7D%0Aa%3Avisited%20%7B%0Acolor%3A%20%23800080%3B%20%7D%0Aa%3Avisited%3Ahover%20%7B%0Acolor%3A%20%23BB00BB%3B%20%7D%0Aa%5Bhref%5E%3D%22http%3A%22%5D%20%7B%0Atext%2Ddecoration%3A%20underline%3B%20%7D%0Aa%5Bhref%5E%3D%22https%3A%22%5D%20%7B%0Atext%2Ddecoration%3A%20underline%3B%20%7D%0A%0Acode%20%3E%20span%2Ekw%20%7B%20color%3A%20%23555%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Edt%20%7B%20color%3A%20%23902000%3B%20%7D%20%0Acode%20%3E%20span%2Edv%20%7B%20color%3A%20%2340a070%3B%20%7D%20%0Acode%20%3E%20span%2Ebn%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Efl%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Ech%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Est%20%7B%20color%3A%20%23d14%3B%20%7D%20%0Acode%20%3E%20span%2Eco%20%7B%20color%3A%20%23888888%3B%20font%2Dstyle%3A%20italic%3B%20%7D%20%0Acode%20%3E%20span%2Eot%20%7B%20color%3A%20%23007020%3B%20%7D%20%0Acode%20%3E%20span%2Eal%20%7B%20color%3A%20%23ff0000%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%0Acode%20%3E%20span%2Efu%20%7B%20color%3A%20%23900%3B%20font%2Dweight%3A%20bold%3B%20%7D%20%20code%20%3E%20span%2Eer%20%7B%20color%3A%20%23a61717%3B%20background%2Dcolor%3A%20%23e3d2d2%3B%20%7D%20%0A" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+
+
+
+<h1 class="title toc-ignore">Homework</h1>
+<h4 class="author"><em>By 18052</em></h4>
+<h4 class="date"><em>2018</em></h4>
+
+
+
+<div id="homework-1" class="section level2">
+<h2>Homework 1</h2>
+</div>
+<div id="question-1" class="section level2">
+<h2>Question 1</h2>
+<p>Generating a series of normal random numbers.<br />
+## Answer</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">a=<span class="kw">rnorm</span>(<span class="dv">10</span>)
+a</code></pre></div>
+<pre><code>##  [1]  1.1722981 -1.0239012 -1.1725279  0.1402263  2.0574355  1.3969852
+##  [7]  0.8465395 -1.0983968 -2.1820041 -0.4976734</code></pre>
+</div>
+<div id="question-2" class="section level2">
+<h2>Question 2</h2>
+<p>Generate a matrix.<br />
+## Answer</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">matrix</span>(<span class="dv">1</span><span class="op">:</span><span class="dv">6</span>, <span class="dv">2</span>, <span class="dv">3</span>)</code></pre></div>
+<pre><code>##      [,1] [,2] [,3]
+## [1,]    1    3    5
+## [2,]    2    4    6</code></pre>
+</div>
+<div id="question-3" class="section level2">
+<h2>Question 3</h2>
+<p>Draw a scatter plot.<br />
+## Answer</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x=<span class="kw">rnorm</span>(<span class="dv">10</span>)
+y=<span class="kw">rnorm</span>(<span class="dv">10</span>)
+<span class="kw">plot</span>(x,y)</code></pre></div>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+</div>
+<div id="homework-2" class="section level2">
+<h2>Homework 2</h2>
+</div>
+<div id="section" class="section level2">
+<h2>3.5</h2>
+<p>Problem<br />
+A discrete random variable X has probability mass function<br />
+x 0 1 2 3 4<br />
+p(x) 0.1 0.2 0.2 0.2 0.3<br />
+Use the inverse transform method to generate a random sample of size 1000 from the distribution of X. Construct a relative frequency table and compare the empirical with the theoretical probabilities. Repeat using the R sample function.</p>
+<p>Idea<br />
+Generate U~U(0, 1)<br />
+If F<sub>X</sub> (x<sub>i-1</sub>) &lt; U<span class="math inline">\(\leq\)</span> F<sub>X</sub> (x<sub>i</sub> ), then X = x<sub>i</sub> .</p>
+<p>Result</p>
+<pre><code>## [1] 0.080 0.198 0.207 0.211 0.304</code></pre>
+</div>
+<div id="section-1" class="section level2">
+<h2>3.7:</h2>
+<p>Problem Write a function to generate a random sample of size n from the Beta(a, b) distribution by the acceptance-rejection method. Generate a random sample of size 1000 from the Beta(3,2) distribution. Graph the histogram of the sample with the theoretical Beta(3,2) density superimposed.</p>
+<p>Idea Generate random numbers U~U(0, 1) and Y~g(??).<br />
+If U<span class="math inline">\(\leq\)</span>(Y ), then accept Y and stop (return X = Y );<br />
+otherwise reject Y and continue.<br />
+In this problem, we choose g(x) =1, 0 &lt; x &lt; 1 and c = <span class="math inline">\(\frac{48}{27}\)</span>.</p>
+<p>Result <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAMAAAAjXV6yAAAArlBMVEUAAAAAADoAAGYAOjoAOmYAOpAAZpAAZrY6AAA6ADo6AGY6OgA6Ojo6OmY6OpA6ZpA6ZrY6kLY6kNtmAABmADpmOgBmOjpmkLZmkNtmtttmtv+QOgCQZgCQZjqQkGaQkLaQtpCQttuQtv+Q27aQ2/+2ZgC2Zjq2ZpC2kGa229u22/+2/7a2///bkDrbkGbbtmbbtpDb27bb29vb////tmb/25D/27b//7b//9v///+lSdHGAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAJ/0lEQVR4nO2dC3ubNhSGlS5ZvGXt1qTt1nr3xd2WjV4WJzH//48NIQMCGz6kI4RIvu95YjtwfCy9lo4uyELl1KDU3AlIXQQEREBABAREQEAEBERAQAQEREBABAREQEAEBERAQAQEREBABAREQEAEBERAQAQEREBABAREQEAEBERAQAQEREBABAREQEAEBERAQAQENDmg3Vqd3Zrn8/of6/Sf/4b+wPcrpb4L5m5mQPevn4UGtFWFLoO5iwvoQBsVHFCmTq4DupulBH24UOrk2xvNp5BG9OmNUl98Xxau3XulTq9LckVef32tnt3kn14Xds+LfD9cqfNPF+rkbf5hVVg1H1M7KF2WiKqvpChS7/zTPwegTKk9mArQ/og2LEx0Di+aw2e3W3O6yHYByOiiQmvUOGgAFQdLA1kpjQGo0h6QLgW3+ccyUJjE36323C7L7/v8drepuJ3d5P8V7/ryVhtdloAu9XvV2719KdtBU8WKo+9MoROkfwZARbpP/96fNYA21ldtXhe5MoCqyvH5rwvtoDhekDCPJTHbTV7Vy+v6o8+lNWwOQOaIiThllqpaqLNWvW7ldfdT5cAUB/PYALId2EE6M8Q7PQs3zRGD7l+bkPL7nkNVCfR3Xb22AWmip798vuoFZDuwAek6VpwTtfnz9IPuf76oQuqIEmRIPPQD6itB+jOlrf5sHcXdj03E6Y9BZeZMFKmC9BFAPTGoJHYhq2FzACry+7KsZ2XDo3PT34pVJejs9n7dH4N6WrHyuLRXPUcJel93a8pxwVA/qI5Bg0Ha7ge1AOl3Crvqs1SxjzoCPb/J993mm31H+AfzhuLQi5uDVuz0N90m9QGyHLSCji6PsvSnOt0hbJwrCTtBeYKANuVcRVE6hN98qSLQSQfDyQHaj7tCDMnLgZt04iM5QPn9m9V+rC9VAejkpdRJeoASEwEBERAQAQEREBABAREQEAEBERAQAQEREBABAREQEAEBERAQAQEREBABAREQEAEBERAQAQEREBABAREQEAEBERAQAQEREBABAREQ0FIBqQNN9UET+Z1aqvuCgNoiICACGtSR2ENAtUooqvVfTkCVDhotDUvlBGR0pEap/QMB5S0OnSDNflDeqUlsxbrqxOJDQBPlZCmAumCOlKBpsrIQQP01qilB04zJlgFooF9oH5iiuV8EoCOt1/EiNUFzvwRAx1qvnjoXPhItAJCqH448dw88wRh0vHnvjdpPDpBqPY0AFDhHYdxNN/HZB2ZhgKZyN6ImHZ4Im4a0AamD/h8B7f0gMENFK2ieUgVUPfgACpqphAEN9n8GgnTY5iJdQMP9n+HoHbCe1X6Em8V13Yn9gP4PaN7ChWrLT5bQThdJAsoDMArXinUcug41JotBmRLt2RQ8WWkB0lvTvMt3a/+9jQIlS4kBTVDF9G47hszWvwg9YkAPVyF2GQ6TLCWvYsHqWAPoleEjKD55IEDKpYBEB5TNDqg1WBBUsVCludSmGR3O0sxbA4TWCCMZQE0JCuTO831VtoIE6VD13UHVnpi91fCJA8qq+rftq4hiQKr9v6yZDxURdRt/We8W3x+kd+tm79SevqS8BHX8JAJonB6u6m0/+zoDQkCHk/+yjmIAQi4upi9Bw5fejz1HBFRUs/I2BAPjsKzaOXaiGKQc848N5IQaDxt9v4LzfDM0bVYFql6KIkDKOf/QICAgHWC2RQmZZ6ihrL+Wn7QAbfQm148KkJyQVcXOH670bVNGzUz3YRQAakXVFAHpzYWvd2uvmXvxtfluDzoYIDGhEH2pAO66PWgC6r5vAYDgQNTNnd/7wgOSErKCdIh7xXmmxmXxhq+Bp6xmHs6U1ePZ/nLml5rDHnSSgPANKHZrVMpcU+Ox/GesQe1ZRqh+96gGHho5A7L+8iPPIYJ0IEDlOAMKGaUISEbIqmJwwszF3Xh7Zb8vYUBhRECB3fUNMYICEmXSem9578lN3NuV9fWgUwS0PbnO9Gg+6oXDBQHSE856pjnufJA4//EA6Y6iBhR1RtFrGbSbgXQm5qAEbSLetrV/iBG2BEmKUTcGZbJb3iUKSNDYt1sx8Y3hnFKhAuQ/JqAQcnFnl/upAeXeQ7L5ANXBYeg5IUBmLCa9d+fIVIh+zONm0LRm45J2kNT988YE5yzOjX+lC+njA9pWwfluFaMVWxwgayJs8Nr8SHfYbGy2UgFkjcCiDDXC5X80IFmQHrE0ysUdtCKgvtNhF5CNMUgD0NgRodo/PjlAHXfDp9VMMciPUAUIXhJ0cTd4WuULBBRMBCRzV9WueWKQV15jA1JtMwLqnFYdMwLqnCag4bPh8+8SpL0m72MCCr+QfoSBbdhuIMYpIiA1Rf4fCaC+CUQCag6P28t3WkC5nYaRigVItU4TUPewap8moO7hRADZDcVIRQEUYxn0kgFFWQadBiDX381PuAx6rEFUQM6/m1f58eb9kQJy/9Xz9Gs0HQHlzkNWF3P3381PvwQxKUAeJehpAXL+3XyExRtpAXL73byKscLOFZDz3L2j+Wh3arD1euqAIq6PShXQ8O/mI+bfGdC0MajXS7vIqKQ1B6BHLAICcgMU5Lf1y5JjRxENVh+fXACNGGqgT0tBjkl2sJUvs4KfloKBv3mAErQEA4E5HqxKPy0FA4k5HKxKPy0FA5G5UCnkn4CkBiJzoVLIPwFJDUTmQqWQ/6QBLVAEBERAQAQEREBABAREQEAEBERAQAQEREBABAREQEBRAG2tna3Ka4/OM9q2h/xupXxumnv3dX0lZjt+q60YgPTWMtX2Mrt18SJzzZ/tId+e3eYjb95g6+GqvlTVcgcUAZC5WrTfVcZsv+O4g0rLg/nHeQ+WbXPBvOUOKQKgI0zGfn3HPNx95bMP3VZd1hc7nb6kGIDKHLWuxTrun9/ysH32z5XXnRgbQIcJ6lcEQKa42IXG9bpjy0Omq4rPDVJqIocJGtAcgLY+MboBdOLw/be8pAqoW6Ldr1u3PJjY4bHXWrJVrBMTPTbaa3kwGfMI1ckG6Xar6rNZbMuDWYQjqWKpNfOtftndymddSKtnp5feWCtxxjtJtaOoS03Zs9dNT2aWh7juqWt5KPt83s288ZClNdRYtAgIiICACAiIgIAICIiAgAgIiICACAiIgIAICIiAgAgIiICACAiIgIAICIiAgAgIiICACAiIgIAICIiAgAgIiICACAiIgIAICCh1QOUyp0x0506ZUge0LZe0iu79KlPqgPSCO7+l44GUOiBdxzy3uwqj5AEVdWwz55Z7yQN6ePXHqxlrWPqAdutv5qxh6QMS3+FdqPQBzdqGLQLQizlr2AIAZfNuG5s6oLvVrCE6fUCzi4CACAiIgIAICIiAgAgIiICACAiIgIAICIiAgAgIiICACAiIgIAICIiAgAgIiICACAjof10wVEwRwx3sAAAAAElFTkSuQmCC" /><!-- --></p>
+</div>
+<div id="section-2" class="section level2">
+<h2>3.12:</h2>
+<p>Problem<br />
+Simulate a continuous Exponential-Gamma mixture. Suppose that the rate parameter <span class="math inline">\(??\)</span> has <span class="math inline">\(Gamma(r, ??)\)</span> distribution and <span class="math inline">\(Y\)</span> has <span class="math inline">\(Exp(??)\)</span> distribution. That is, <span class="math inline">\((Y |?? = ??)\)</span> ~ <span class="math inline">\(f_Y (y|??)\)</span> = <span class="math inline">\(??e^{-??y}\)</span>. Generate 1000 random observations from this mixture with r = 4 and ?? = 2.</p>
+<p>Idea:<br />
+First generate 1000 random <span class="math inline">\(??'s\)</span> which has <span class="math inline">\(Gamma(r, ??)\)</span> distribution, then generate <span class="math inline">\(Y's\)</span> which has <span class="math inline">\(Exp(??'s)\)</span> distribution.</p>
+<p>Result <img src="data:image/png;base64,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" /><!-- --></p>
+</div>
+<div id="homework-3" class="section level2">
+<h2>Homework 3</h2>
+</div>
+<div id="section-3" class="section level2">
+<h2>5.4</h2>
+<p>Problem statement Write a function to compute a Monte Carlo estimate of the Beta(3, 3) cdf, and use the function to estimate F(x) for x = 0.1, 0.2, . . ., 0.9. Compare the estimates with the values returned by the pbeta function in R.</p>
+<p>Idea If <span class="math inline">\(a\)</span> and <span class="math inline">\(b\)</span> are finite, then <span class="math display">\[\int_a^b h(x)dx = \int_a^b g(x)\frac1{b-a}dx=E[g(X)],\]</span> where <span class="math inline">\(X\sim U(0,1),g(x)=(b-a)h(x).\)</span><br />
+Use a frequency to approximation the expectation (Strong Law of Large Number): <span class="math display">\[\frac1m \sum_{i=1}^m g(X_i),\]</span> where <span class="math inline">\(X_1,\ldots,X_m\)</span> are iid copies of <span class="math inline">\(X\)</span> and <span class="math inline">\(m\)</span> is a sufficiently large integer.</p>
+<p>Result</p>
+<pre><code>## [1] 0.008759193 0.057673376 0.165321617 0.316582912 0.498865012 0.682563764
+## [7] 0.843967339 0.931756415 0.985658540</code></pre>
+<pre><code>## [1] 0.00856 0.05792 0.16308 0.31744 0.50000 0.68256 0.83692 0.94208 0.99144</code></pre>
+</div>
+<div id="section-4" class="section level2">
+<h2>5.9:</h2>
+<p>Problem statement The Rayleigh density is <span class="math inline">\(f(x) = \frac{x}{\sigma^2} e^{-x2/(2??^2)}, x ?? 0, ?? &gt; 0\)</span>.<br />
+Implement a function to generate samples from a Rayleigh(??) distribution, using antithetic variables. What is the percent reduction in variance of <span class="math inline">\(\frac{X+X'}{2}\)</span> compared with <span class="math inline">\(\frac{X_1+X_2}{2}\)</span> for independent X1, X2?</p>
+<p>Result</p>
+<pre><code>##        [,1]    [,2]    [,3]    [,4]    [,5]
+## x   0.10000 0.70000 1.30000 1.90000 2.50000
+## MC1 0.00124 0.05914 0.18972 0.36228 0.54172
+## MC2 0.00125 0.05941 0.19046 0.36329 0.54246
+## Phi 0.00125 0.05941 0.19043 0.36317 0.54217</code></pre>
+<pre><code>## [1] 0.005707144</code></pre>
+<pre><code>## [1] 0.001627423</code></pre>
+<pre><code>## [1] 0.9186865</code></pre>
+<p>The antithetic variable approach achieved approximately 91.9% reduction in variance at x = 1.95.and <span class="math inline">\(\sigma=2\)</span>.</p>
+</div>
+<div id="section-5" class="section level2">
+<h2>5.13:</h2>
+<p>Problem statement<br />
+Find two importance functions <span class="math inline">\(f_1\)</span> and <span class="math inline">\(f_2\)</span> that are supported on <span class="math inline">\((1,\infty)\)</span> and are ??close?? to <span class="math display">\[g(x) = \frac{x^2}{\sqrt{2 \pi}}e^{-x^2/2}, x &gt; 1.\]</span> Which of your two importance functions should produce the smaller variance in estimating <span class="math display">\[\int_{1}^{\infty}\frac{x^2}{\sqrt{2 \pi}}e^{-x^2/2}dx\]</span> by importance sampling? Explain.<br />
+Idea:<br />
+<span class="math inline">\(\theta=\int g(x)dx\)</span> can be written as <span class="math display">\[\int \frac{g(x)}{f(x)}f(x)dx=E(g(X)/f(X)),\]</span> where <span class="math inline">\(X\)</span> has pdf/pmf <span class="math inline">\(f(\cdot)\)</span>.<br />
+<span class="math inline">\(f(\cdot)\)</span> is a <span class="math inline">\(f(\cdot)\)</span> is a pdf/pmf from which random samples are easy to generate, which is called the importance function of <span class="math inline">\(g(\cdot)\)</span>.<br />
+<span class="math inline">\(\theta\)</span> can be estimated with <span class="math display">\[\hat\theta=\frac1m\sum_{i=1}^m\frac{g(X_i)}{f(X_i)}\]</span><br />
+The variance of <span class="math inline">\(\hat\theta\)</span> is <span class="math inline">\(var(g(X_1)/f(X_1))/m\)</span>, which has the minimal value 0 when <span class="math inline">\(g(\cdot) = c f(\cdot)\)</span> for some constant <span class="math inline">\(c\)</span>.<br />
+We select <span class="math inline">\(f_1=e^{-x+1}, x&gt;1\)</span> and <span class="math inline">\(f_2=\frac{1}{2}{(x-1)}^2e^{-x+1}, x&gt;1\)</span>.</p>
+<p>Result<br />
+<img src="data:image/png;base64,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" /><!-- --><img src="data:image/png;base64,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" /><!-- --></p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="center">f1</th>
+<th align="center">f2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>theta</td>
+<td align="center">0.400</td>
+<td align="center">0.364</td>
+</tr>
+<tr class="even">
+<td>se</td>
+<td align="center">0.159</td>
+<td align="center">1.182</td>
+</tr>
+</tbody>
+</table>
+<p>From the figure, we can see <span class="math inline">\(f_1\)</span> produces the smaller variance in estimating.</p>
+</div>
+<div id="section-6" class="section level2">
+<h2>5.14:</h2>
+<p>Problem statement<br />
+Obtain a Monte Carlo estimate of <span class="math display">\[\int_{1}^{\infty}\frac{x^2}{\sqrt{2 \pi}}e^{-x^2/2}dx\]</span> by importance sampling.<br />
+Idea:<br />
+<span class="math inline">\(\theta=\int g(x)dx\)</span> can be written as <span class="math display">\[\int \frac{g(x)}{f(x)}f(x)dx=E(g(X)/f(X)),\]</span> where <span class="math inline">\(X\)</span> has pdf/pmf <span class="math inline">\(f(\cdot)\)</span>.<br />
+<span class="math inline">\(f(\cdot)\)</span> is a <span class="math inline">\(f(\cdot)\)</span> is a pdf/pmf from which random samples are easy to generate, which is called the importance function of <span class="math inline">\(g(\cdot)\)</span>.<br />
+<span class="math inline">\(\theta\)</span> can be estimated with <span class="math display">\[\hat\theta=\frac1m\sum_{i=1}^m\frac{g(X_i)}{f(X_i)}\]</span><br />
+The variance of <span class="math inline">\(\hat\theta\)</span> is <span class="math inline">\(var(g(X_1)/f(X_1))/m\)</span>, which has the minimal value 0 when <span class="math inline">\(g(\cdot) = c f(\cdot)\)</span> for some constant <span class="math inline">\(c\)</span>.<br />
+We select <span class="math inline">\(f=e^{-x+1}, x&gt;1\)</span>.</p>
+<p>Result</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th align="center">f</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>theta</td>
+<td align="center">0.405</td>
+</tr>
+<tr class="even">
+<td>se</td>
+<td align="center">0.157</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="homework-4" class="section level2">
+<h2>Homework 4</h2>
+</div>
+<div id="section-7" class="section level2">
+<h2>6.9</h2>
+<p>Problem statement Let X be a non-negative random variable with <span class="math inline">\(\mu=E[X]&lt;\infty\)</span>. For a random sample <span class="math inline">\(x_1,\cdots,x_n\)</span> from the distribution of X, the Gini ratio is defined by <span class="math display">\[G=\frac{1}{2n^2\mu}\sum_{j=1}^{n}\sum_{i=1}^{n}|x_i-x_j|\]</span> The Gini ratio is applied in economics to measure inequality in income distribution . Note that G can be written in terms of the order statistics x(i) as <span class="math display">\[G=\frac{1}{n^2\mu}\sum_{i=1}^{n}(2i-n-1)x_{(i)}\]</span> If the mean is unknown, let <span class="math inline">\(\hat{G}\)</span> be the statistic G with ?? replaced by <span class="math inline">\(\bar{x}\)</span>. Estimate by simulation the mean, median and deciles of <span class="math inline">\(\hat{G}\)</span> if X is standard lognormal. Repeat the procedure for the uniform distribution and Bernoulli(0.1). Also construct density histograms of the replicates in each case.</p>
+<p>Result</p>
+<pre><code>## [1] 0.5128181 0.5107049</code></pre>
+<pre><code>##       10%       20%       30%       40%       50%       60%       70% 
+## 0.4638178 0.4805694 0.4902141 0.5006500 0.5107049 0.5203018 0.5321593 
+##       80%       90%      100% 
+## 0.5451978 0.5664711 0.6460172</code></pre>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+<pre><code>## [1] 0.3309144 0.3305731</code></pre>
+<pre><code>##       10%       20%       30%       40%       50%       60%       70% 
+## 0.2993108 0.3098177 0.3193112 0.3247008 0.3305731 0.3364077 0.3429928 
+##       80%       90%      100% 
+## 0.3513647 0.3620325 0.4237325</code></pre>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+<pre><code>## [1] 0.90061 0.90000</code></pre>
+<pre><code>##  10%  20%  30%  40%  50%  60%  70%  80%  90% 100% 
+## 0.86 0.88 0.89 0.89 0.90 0.91 0.92 0.93 0.94 0.97</code></pre>
+<p><img src="data:image/png;base64,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" /><!-- --></p>
+</div>
+<div id="section-8" class="section level2">
+<h2>6.10:</h2>
+<p>Problem statement Construct an approximate 95% confidence interval for the Gini ratio <span class="math inline">\(\gamma=E[G]\)</span> if X is lognormal with unknown parameters. Assess the coverage rate of the estimation procedure with a Monte Carlo experiment.</p>
+<p>Result</p>
+<pre><code>## [1] 0.91</code></pre>
+</div>
+<div id="homework-5" class="section level2">
+<h2>Homework 5</h2>
+</div>
+<div id="section-9" class="section level2">
+<h2>7.1</h2>
+<p>Problem statement<br />
+Exercises 7.1 Compute a jackknife estimate of the bias and the standard error of the correlation statistic in Example 7.2. LSAT 576 635 558 578 666 580 555 661 651 605 653 575 545 572 594 GPA 339 330 281 303 344 307 300 343 336 313 312 274 276 288 296</p>
+<p>Result</p>
+<pre><code>## [1] -0.006473623</code></pre>
+<pre><code>## [1] 0.1425291</code></pre>
+</div>
+<div id="section-10" class="section level2">
+<h2>7.5:</h2>
+<p>Problem statement<br />
+Refer to Exercise 7.4. Compute 95% bootstrap confidence intervals for the mean time between failures 1/?? by the standard normal, basic, percentile,and BCa methods. Compare the intervals and explain why they may differ. The 12 observations are the times in hours between failures of airconditioning equipment: 3, 5, 7, 18, 43, 85, 91, 98, 100, 130, 230, 487. Result</p>
+<pre><code>## BOOTSTRAP CONFIDENCE INTERVAL CALCULATIONS
+## Based on 1024 bootstrap replicates
+## 
+## CALL : 
+## boot.ci(boot.out = de, type = c(&quot;norm&quot;, &quot;basic&quot;, &quot;perc&quot;, &quot;bca&quot;))
+## 
+## Intervals : 
+## Level      Normal              Basic         
+## 95%   ( 40.2, 178.2 )   ( 32.3, 167.5 )  
+## 
+## Level     Percentile            BCa          
+## 95%   ( 48.7, 183.9 )   ( 59.8, 223.9 )  
+## Calculations and Intervals on Original Scale
+## Some BCa intervals may be unstable</code></pre>
+</div>
+<div id="section-11" class="section level2">
+<h2>7.8:</h2>
+<p>Problem statement<br />
+Refer to Exercise 7.7. Obtain the jackknife estimates of bias and standard error of <span class="math inline">\(\hat \theta\)</span>.</p>
+<p>Result</p>
+<pre><code>## [1] 3.577503</code></pre>
+<pre><code>## [1] 1.705459</code></pre>
+</div>
+<div id="section-12" class="section level2">
+<h2>7.11:</h2>
+<p>Problem statement In Example 7.18, leave-one-out (n-fold) cross validation was used to select the best fitting model. Use leave-two-out cross validation to compare the models.<br />
+Result</p>
+<pre><code>## 载入需要的程辑包：lattice</code></pre>
+<pre><code>## 
+## 载入程辑包：'lattice'</code></pre>
+<pre><code>## The following object is masked from 'package:boot':
+## 
+##     melanoma</code></pre>
+<pre><code>## [1] 19.55644 17.85248 18.44188 20.45424</code></pre>
+<pre><code>## [1] 60.75022 56.22732 56.67799 62.58377</code></pre>
+</div>
+<div id="homework-6" class="section level2">
+<h2>Homework 6</h2>
+</div>
+<div id="section-13" class="section level2">
+<h2>8.1</h2>
+<p>Problem statement Implement the two-sample Cramer-von Mises test for equal distributions as a permutation test. Apply the test to the data in Examples 8.1 and 8.2.</p>
+<p>Result<br />
+<img src="data:image/png;base64,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" /><!-- --><img src="data:image/png;base64,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" /><!-- --></p>
+</div>
+<div id="section-14" class="section level2">
+<h2>2:</h2>
+<p>Problem statement Design experiments for evaluating the performance of the NN, energy, and ball methods in various situations. (1)Unequal variances and equal expectations (2)Unequal variances and unequal expectations (3)Non-normal distributions: t distribution with 1 df (heavy-tailed distribution), bimodal distribution (mixture of two normal distributions) (4)Unbalanced samples (say, 1 case versus 10 controls) Result</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">## variable definition
+m &lt;-<span class="st"> </span><span class="dv">500</span> <span class="co">#permutation samples</span>
+p&lt;-<span class="dv">2</span> <span class="co"># dimension of data</span>
+n1 &lt;-<span class="st"> </span>n2 &lt;-<span class="st"> </span><span class="dv">50</span> <span class="co">#the sample size of x and y</span>
+R&lt;-<span class="dv">999</span> <span class="co">#boot parameter</span>
+k&lt;-<span class="dv">3</span> <span class="co">#boot parameter</span>
+n &lt;-<span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>n2
+N =<span class="st"> </span><span class="kw">c</span>(n1,n2)
+<span class="co"># the function of NN method</span>
+Tn &lt;-<span class="st"> </span><span class="cf">function</span>(z, ix, sizes,k){
+  n1 &lt;-<span class="st"> </span>sizes[<span class="dv">1</span>]; n2 &lt;-<span class="st"> </span>sizes[<span class="dv">2</span>]; n &lt;-<span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>n2
+  <span class="cf">if</span>(<span class="kw">is.vector</span>(z)) z &lt;-<span class="st"> </span><span class="kw">data.frame</span>(z,<span class="dv">0</span>);
+  z &lt;-<span class="st"> </span>z[ix, ];
+  NN &lt;-<span class="st"> </span><span class="kw">nn2</span>(<span class="dt">data=</span>z, <span class="dt">k=</span>k<span class="op">+</span><span class="dv">1</span>) 
+  block1 &lt;-<span class="st"> </span>NN<span class="op">$</span>nn.idx[<span class="dv">1</span><span class="op">:</span>n1,<span class="op">-</span><span class="dv">1</span>]
+  block2 &lt;-<span class="st"> </span>NN<span class="op">$</span>nn.idx[(n1<span class="op">+</span><span class="dv">1</span>)<span class="op">:</span>n,<span class="op">-</span><span class="dv">1</span>]
+  i1 &lt;-<span class="st"> </span><span class="kw">sum</span>(block1 <span class="op">&lt;</span><span class="st"> </span>n1 <span class="op">+</span><span class="st"> </span>.<span class="dv">5</span>)
+  i2 &lt;-<span class="st"> </span><span class="kw">sum</span>(block2 <span class="op">&gt;</span><span class="st"> </span>n1<span class="op">+</span>.<span class="dv">5</span>)
+  (i1 <span class="op">+</span><span class="st"> </span>i2) <span class="op">/</span><span class="st"> </span>(k <span class="op">*</span><span class="st"> </span>n)
+}
+
+eqdist.nn &lt;-<span class="st"> </span><span class="cf">function</span>(z,sizes,k){
+  boot.obj &lt;-<span class="st"> </span><span class="kw">boot</span>(<span class="dt">data=</span>z,<span class="dt">statistic=</span>Tn,<span class="dt">R=</span>R,<span class="dt">sim =</span> <span class="st">&quot;permutation&quot;</span>, 
+                 <span class="dt">sizes =</span> sizes,<span class="dt">k=</span>k)
+  ts &lt;-<span class="st"> </span><span class="kw">c</span>(boot.obj<span class="op">$</span>t0,boot.obj<span class="op">$</span>t)
+  p.value &lt;-<span class="st"> </span><span class="kw">mean</span>(ts<span class="op">&gt;=</span>ts[<span class="dv">1</span>])
+  <span class="kw">list</span>(<span class="dt">statistic=</span>ts[<span class="dv">1</span>],<span class="dt">p.value=</span>p.value)
+}
+p.values &lt;-<span class="st"> </span><span class="kw">matrix</span>(<span class="ot">NA</span>,m,<span class="dv">3</span>) <span class="co">#pֵ</span></code></pre></div>
+<p>(1)Unequal variances and equal expectations</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">##(1)Unequal variances and equal expectations
+<span class="kw">set.seed</span>(<span class="dv">1</span>)
+sd &lt;-<span class="st"> </span><span class="fl">1.5</span>
+<span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>m){
+  x &lt;-<span class="st"> </span><span class="kw">matrix</span>(<span class="kw">rnorm</span>(n1<span class="op">*</span>p),<span class="dt">ncol=</span>p)
+  y &lt;-<span class="st"> </span><span class="kw">matrix</span>(<span class="kw">rnorm</span>(n2<span class="op">*</span>p,<span class="dt">sd=</span>sd),<span class="dt">ncol=</span>p)
+  z &lt;-<span class="st"> </span><span class="kw">rbind</span>(x,y)
+  p.values[i,<span class="dv">1</span>] &lt;-<span class="st"> </span><span class="kw">eqdist.nn</span>(z,N,k)<span class="op">$</span>p.value<span class="co">#NN method</span>
+  p.values[i,<span class="dv">2</span>] &lt;-<span class="st"> </span><span class="kw">eqdist.etest</span>(z,<span class="dt">sizes=</span>N,<span class="dt">R=</span>R)<span class="op">$</span>p.value<span class="co">#energy methods</span>
+  p.values[i,<span class="dv">3</span>] &lt;-<span class="st"> </span><span class="kw">bd.test</span>(<span class="dt">x=</span>x,<span class="dt">y=</span>y,<span class="dt">R=</span><span class="dv">999</span>,<span class="dt">seed=</span>i<span class="op">*</span><span class="dv">12345</span>)<span class="op">$</span>p.value<span class="co"># ball method</span>
+}
+alpha &lt;-<span class="st"> </span><span class="fl">0.05</span>;
+pow &lt;-<span class="st"> </span><span class="kw">colMeans</span>(p.values<span class="op">&lt;</span>alpha)
+power &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">methods =</span> <span class="kw">c</span>(<span class="st">'NN'</span>,<span class="st">'energy'</span>,<span class="st">'Ball'</span>),pow)
+<span class="kw">ggplot</span>(power,<span class="kw">aes</span>(methods,pow))<span class="op">+</span><span class="co">#plot</span>
+<span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">fill =</span> <span class="st">'palegreen3'</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">coord_flip</span>()</code></pre></div>
+<p><img src="data:image/png;base64,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" /><!-- --> The power of ball method is better than NN and energy methods.</p>
+<p>(2)Unequal variances and unequal expectations</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">##(2)Unequal variances and unequal expectations
+<span class="kw">set.seed</span>(<span class="dv">1</span>)
+mu &lt;-<span class="st"> </span><span class="fl">0.5</span>
+sd &lt;-<span class="st"> </span><span class="fl">1.5</span>
+<span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>m){
+  x &lt;-<span class="st"> </span><span class="kw">matrix</span>(<span class="kw">rnorm</span>(n1<span class="op">*</span>p),<span class="dt">ncol=</span>p)
+  y &lt;-<span class="st"> </span><span class="kw">matrix</span>(<span class="kw">rnorm</span>(n2<span class="op">*</span>p,<span class="dt">mean=</span>mu,<span class="dt">sd=</span>sd),<span class="dt">ncol=</span>p)
+  z &lt;-<span class="st"> </span><span class="kw">rbind</span>(x,y)
+  p.values[i,<span class="dv">1</span>] &lt;-<span class="st"> </span><span class="kw">eqdist.nn</span>(z,N,k)<span class="op">$</span>p.value<span class="co">#NN method</span>
+  p.values[i,<span class="dv">2</span>] &lt;-<span class="st"> </span><span class="kw">eqdist.etest</span>(z,<span class="dt">sizes=</span>N,<span class="dt">R=</span>R)<span class="op">$</span>p.value<span class="co">#energy methods</span>
+  p.values[i,<span class="dv">3</span>] &lt;-<span class="st"> </span><span class="kw">bd.test</span>(<span class="dt">x=</span>x,<span class="dt">y=</span>y,<span class="dt">R=</span><span class="dv">999</span>,<span class="dt">seed=</span>i<span class="op">*</span><span class="dv">12345</span>)<span class="op">$</span>p.value<span class="co"># ball method</span>
+}
+alpha &lt;-<span class="st"> </span><span class="fl">0.05</span>;
+pow &lt;-<span class="st"> </span><span class="kw">colMeans</span>(p.values<span class="op">&lt;</span>alpha)
+pow</code></pre></div>
+<pre><code>## [1] 0.568 0.894 0.974</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">power &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">methods =</span> <span class="kw">c</span>(<span class="st">'NN'</span>,<span class="st">'energy'</span>,<span class="st">'Ball'</span>),pow)
+<span class="kw">ggplot</span>(power,<span class="kw">aes</span>(methods,pow))<span class="op">+</span><span class="co">#plot</span>
+<span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">fill =</span> <span class="st">'palegreen3'</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">coord_flip</span>()</code></pre></div>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAMAAAAjXV6yAAAA3lBMVEUAAAAAADoAAGYAOpAAZmYAZrYzMzM6AAA6ADo6AGY6Ojo6OpA6kNtNTU1NTW5NTY5Nbo5NbqtNjqtNjshmAABmADpmAGZmtttmtv9uTU1uTW5uTY5ubo5ubqtujshuq+R8zXyOTU2OTW6OTY6Obk2Obm6ObquOjo6OyP+QOgCQOjqQZgCQkGaQ2/+rbk2rbm6rbo6rjk2ryKur5Mir5P+2ZgC2///Ijk3Ijm7IyI7I///bkDrb/7bb///kq27k///r6+v/tmb/yI7/25D/5Kv//7b//8j//9v//+T///9PW4p9AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAGtUlEQVR4nO3cAVvaRgDGcaqjtptou7qN1jnm2nW41bbrEDZoYSgC9/2/0O6SgxAwvAlBkOX/Pk/1EnJe8vPukkZIyZClKW17Bx56ABIBSAQgEYBEABJZD9C/08wUY0lan/2F+68QvAAQQPmaBgigfE0DBFC+pgECKF/TAAGUr+n7Avp5wwEIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACaJrBy7r7etqeFgCaAzpueyBfACgOdPrPixBoUgBoDqjdqodAvmBXPraJNtk0UJbdXylZgYZveyFQWPAv0IOmQKZbC4HCAkALQOMPn0KgoADQAlBwKpsWAFoEMl0P5AoApQtAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAArQ1ovXu5nQoApXkBIIDyNQ0QQPmaBqgg10F5A5AIQCIAiQAkApBINqDbk+rtSWmvCVAC0FXZdPaanTJAdwPZDjS6KJt+9i5UHKDbk0OAEoFGF4f9R5duoAF09xx0c1Aqm6v9LwBxmp8EIJH0QPYCaBIm6aQe1HE09lxGD0o8zbtvnOYBirLSEDvM6lMYINN3c3T2Kag4QKsGIIDCdNwQyz4FFQaISXo5EKd5gBbCEBPJBsQkrYBWDUAABbk54H7QMiD3N5/VUhCguVtlw/PKcdsMzv6sVOrTpR/fHLdt8dmvDfcgxbNeoYBGFzGgVs10X5jBy5q5ft6bLtWDF66PGtf2a81s+0GTeSMHR2wOil0iDn9pmOHr4Hlu7rmS0ZL9ZsYfGsO3vb8bBRpiCzft7UCqVI4aE6CZJTuwLND4w19vewUCWojrKCZ8NKADipZ8DzLd32qTbQsCNPd/sVYw+XigmSU/B5nBq0axgeyocgweKFpyxW9tDxp/bBcKqDOdg1JcDQVsP00XCwGU+k+G4/duujbdo+kIKwrQ6ikMkB1m1Q5vf0l+j+L+5/BdeAAlvwWvyi1XgGaSbYh13BDjnrT62zz3pDnNRwFIJBsQ96SXA3FPWgCt8vbNQgHN3ZMGaB5olUvEYgExSashtsI1YpGAmKRlDwJIzEFPmaSXDzE+7bO8B60cgAACCKA7A5DIxoHMnS0mry/cI7oAAggggNK8ABBA+ZoGaEtA277wyxuARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARHIADV5WKsETFf3iafBIPIAiIMcRPbcMoDuB3NPvXFeqA5TQg8567pGToU4ItNtP4pzPwmFnnYOeB8+WDJ/JSQ9a7EHj9+5ZrpXKMUB3A5lWfXhejw0xgGaB7AQUPELxVQOgBaDJdVC3Unn2pg5QlgAEEEBhABIBSAQgEYBEABIBSAQgEYBEABIBSAQgEYBEABIBSAQgEYBEABIBSAQgEYBEABIBSAQgEYBE7h1ophhL0vrCPaILIIAAAijNCwABlK9pgADK1zRAAOVrer1AUR7rTR58hVgNgEQNgEQNgESNdQP97wKQCEAiAIkAJLIWoOG5/yzrpBStUBXCj1C7z6BVjttpKvgtU7fgtndNqBbM5DOVcwexDiD3Qdbui5lStEJVCD5C/aphWvXkrWMV/JbpW3C5tgcqWnBbecD4QawDaPi67fV9KVqhKly7g2jV3cfx07Xgt0zfggl/C6oFuxdHn8IK8YNYB9DgrBfsxLQUrVAV/P7b3jzz1ItlFfyWmVpwXUm1EFQKgeIHsQ4g14PDvfGlaIWqYFyPrgWjbNnvOKrgt8zSQvBdteDigeIHsfUeNDyv+bVLZom5H9iqZ2nhejqbi3no3npQjjnInsWmO71k9+d+YKueZQ5q1aJ6S49jcF9zkBskk7NYLTwB1MQ5ZvK693G/5PHH5OONKvgt07fgB5ZqIdiZ0/biQazxOsj9/EzXQbbCzFXK0bIJImrBb5m6hclIUy2YEGjhILiSFgFIBCARgEQAEgFIBCARgEQAEgFI5OED3Tx5VyrtfzFmdFEqle3XQ2P6paoxV+VNNL8DQAd7zdGFkwn/dSzW1deHtlzdRPO7AFR13eiyv9e0XWevefO0Ofr93f4X+30Tze8A0JNLY25Pqn03zOyC7Tk333z+vul60gaye0B27umXRxc/uLloA9kBoGCIPW32H10GQ8z09/+oms5X311upPldAIpP0rY3Wap+aTMjbBeA3GnendHD07zNlbW5PdnMCNsJoM2MpYQAJAKQyMMH2nIAEgFIBCARgEQAEgFI5D+IyXQFxu0ayAAAAABJRU5ErkJggg==" /><!-- --></p>
+<p>The power of ball method is better than NN and energy methods.</p>
+<p>(3)Non-normal distributions: t distribution with 1 df (heavy-tailed distribution), bimodal distribution (mixture of two normal distributions)</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">##Non-normal distributions: t distribution with 1 df (heavy-tailed
+##distribution), bimodal distribution (mixture of two normal
+##distributions)
+<span class="kw">set.seed</span>(<span class="dv">1</span>)
+mu &lt;-<span class="st"> </span><span class="fl">0.5</span>
+sd &lt;-<span class="st"> </span><span class="dv">2</span>
+<span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>m){
+  x &lt;-<span class="st"> </span><span class="kw">matrix</span>(<span class="kw">rt</span>(n1<span class="op">*</span>p,<span class="dt">df=</span><span class="dv">1</span>),<span class="dt">ncol=</span>p)
+  y1 =<span class="st"> </span><span class="kw">rnorm</span>(n2<span class="op">*</span>p);  y2 =<span class="st"> </span><span class="kw">rnorm</span>(n2<span class="op">*</span>p,<span class="dt">mean=</span>mu,<span class="dt">sd=</span>sd)
+  w =<span class="st"> </span><span class="kw">rbinom</span>(n, <span class="dv">1</span>, .<span class="dv">5</span>) <span class="co"># 50:50 random choice</span>
+  y &lt;-<span class="st"> </span><span class="kw">matrix</span>(w<span class="op">*</span>y1 <span class="op">+</span><span class="st"> </span>(<span class="dv">1</span><span class="op">-</span>w)<span class="op">*</span>y2,<span class="dt">ncol=</span>p)<span class="co"># normal mixture</span>
+  z &lt;-<span class="st"> </span><span class="kw">rbind</span>(x,y)
+  p.values[i,<span class="dv">1</span>] &lt;-<span class="st"> </span><span class="kw">eqdist.nn</span>(z,N,k)<span class="op">$</span>p.value<span class="co">#NN method</span>
+  p.values[i,<span class="dv">2</span>] &lt;-<span class="st"> </span><span class="kw">eqdist.etest</span>(z,<span class="dt">sizes=</span>N,<span class="dt">R=</span>R)<span class="op">$</span>p.value<span class="co">#energy methods</span>
+  p.values[i,<span class="dv">3</span>] &lt;-<span class="st"> </span><span class="kw">bd.test</span>(<span class="dt">x=</span>x,<span class="dt">y=</span>y,<span class="dt">R=</span><span class="dv">999</span>,<span class="dt">seed=</span>i<span class="op">*</span><span class="dv">12345</span>)<span class="op">$</span>p.value<span class="co"># ball method</span>
+}
+alpha &lt;-<span class="st"> </span><span class="fl">0.05</span>;
+pow &lt;-<span class="st"> </span><span class="kw">colMeans</span>(p.values<span class="op">&lt;</span>alpha)
+pow</code></pre></div>
+<pre><code>## [1] 0.352 0.796 0.774</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">power &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">methods =</span> <span class="kw">c</span>(<span class="st">'NN'</span>,<span class="st">'energy'</span>,<span class="st">'Ball'</span>),pow)
+<span class="kw">ggplot</span>(power,<span class="kw">aes</span>(methods,pow))<span class="op">+</span><span class="co">#plot</span>
+<span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">fill =</span> <span class="st">'palegreen3'</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">coord_flip</span>()</code></pre></div>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAMAAAAjXV6yAAAA4VBMVEUAAAAAADoAAGYAOpAAZmYAZrYzMzM6AAA6ADo6AGY6Ojo6OpA6kNtNTU1NTW5NTY5Nbo5NbqtNjqtNjshmAABmADpmAGZmtttmtv9uTU1uTW5uTY5ubo5ubqtujshuq+R8zXyOTU2OTW6OTY6Obk2Obm6ObquOjo6OyP+QOgCQOjqQZgCQkGaQ2/+rbk2rbm6rbo6rjk2ryKur5Mir5OSr5P+2ZgC2///Ijk3Ijm7IyI7I///bkDrb/7bb///kq27k///r6+v/tmb/yI7/25D/5Kv//7b//8j//9v//+T///+BOcmPAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAGhUlEQVR4nO3cAVvaRgDGcaqjrZuRdnUbtnXMtnO4VV23IWzQwkAE7vt/oN0lkSRgeBMHqTT/93mql8slhJ93l5hKKoasTOVzH8BDD0AiAIkAJAKQCEAi6wH6d55YMZFtqZ+vAEisAEisAEisAEisAEisAEisAEisAEisAEisAEis2BTQT5sIQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEBZMj5quq+vuvMCQAtAtW4IFBYASgK9+udFAHRbAGgBqNtpBkBhwVY+tomabAQozzGuO3mBJqeDACgohCvoQXMg028EQEEBoCWg2eUfAZBfAGgJyD+VzQsALQOZfgjkCgBlC0AAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQACtDWjTbwCgz1wPkKgHSNQDJOoBEvUAifrtvA4qMACJACQCkAhAIgCJrAa6OazfHFZ22gClAF1VTW+n3asCdDeQ7UDTs6oZ5u9C5QG6OdwHKBVoerY/fHTuBhpAd89B108qVXO1+wkgTvNpAUgkHcheAN2GSTqtB/UcjT2X0YNST/PuG6d5gNKTaYjt5/UpDZAZujk6/xRUHqD7BiCAgvTcEMs/BZUGiEma07wKQCIMMREmaRFO8yIAichbrtwPWgHk/s/nfikJ0MKtssmJV+ua8fEHz2vOl16/q3Vt8dnPLfcgxeNBqYCmZwmgTsP0X5jxUcOMng/mS01/xeigNbJfG6aQB00WmKXBkZiDEpeIkzctM3nrP8/NPVcyWrLfzOyyNTkd/N0q0RBbumlvB5LnHbRugWJLdmBZoNnln6eDEgEtxXUUEzwa0AFFS2EPMv1fGrdtSwK08LtYx598QqDYUjgHmfHLVrmB7KhyDCFQtOSK39oeNPu9Wyqg3nwOynA15LP9OF8sBVDm/zKcXbjp2vQP5iOsLED3T2mA7DCr9/jzl1Sgq92PwV/hAZT+J3h1brkCtCLinrQbYtyTXjFJD7knzWl+dQAS4Z60CPekRdbxu1h5gRbuSQO0CHSfS8RyATFJy0/73Kv/lAaISZpJWkbMQXtM0quHGJ/24XcxEYBEABIBSAQgER7RJeoBEvUAiXqARD1Aoh4gUQ+QqAdI1HOhmBqARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARP430PjI8/wnKoaLr/xH4gEUATmO6LllAN0J5J5+57pSE6CUHnQ8cI+cDHQCoC/lSZwpbzvvHPTcf7Zk8ExOetByD5pduGe5el4NoLuBTKc5OWkmhhhAcSA7AfmPUHzZAmgJ6PY6qO95z941AcoTgAACCCARgEQAEgFIBCARgEQAEgFIBCARgEQAEgFIBCARgEQAEgFIBCARgEQAEgFIBCARgEQAEgFIpCCgWDGRbakHSNQDJOoBEvUAiXqARD1Aoh4gUQ+QqAdI1AMk6jcEFOWxbvKg2y9tAJDYACCxAUBig3UDfXEBSAQgEYBEABJZF9DkJPw4a6yUrX3wIers7cPPhWZuP7vwDlqi9eIB1brz+jUBuWPuv0iWsrX3P0T9Ur2DxF77GjTWvtM0I/0TSx5QP9pgTUCTt93wQ61RKVv7kTuqjnrH8b2OX7+TQMnjyZBog/HxIL7RmoD8vb5pJUrZ2vtHl6f97PIvPcTix/MhyxCLNthMD3KdONh/VMrW3rju3ci+f9NvZJiDovbjo6b/7rO/QHISfQA9aHIifZL7zwCU93jiG9gJcVRb9xC7/xzk/4hz7L/vPnvtKdLY8ZxmAopNiskhsLazWGN+FmtkOovdtsrkk9xrhh4Ua9/JNMRiB7SRHhQOXPczyHMdZNsHPUKflub7z3MdFB5PLcOJLNpg5MVnda6kRQASAUgEIBGARAASAUgEIBGARAASefhA10/fVyq7n4yZnlUqVft135hhpW7MVbWIl98CoCc77emZkwn+9SzW1df7tlwv4uW3AajuutH5cKdtu85O+3qvPf31/e4n+72Il98CoKfnxtwc1odumNkF23Ouv/n4fdv1pAKyfUB27hlWp2c/uLmogGwBkD/E9trDR+f+EDPD3d/qpvfVd+eFvPw2ACUnadubLNWwUswI2wYgd5p3Z/TgNG9zZW1uDosZYVsBVMxYSglAIgCJPHygzxyARAASAUgEIBGARAAS+Q/JruCS7kllyQAAAABJRU5ErkJggg==" /><!-- --></p>
+<p>The power of energy method is better than NN and ball methods.</p>
+<p>(4)Unbalanced samples (say, 1 case versus 10 controls)</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">##Unbalanced samples 
+<span class="kw">set.seed</span>(<span class="dv">1</span>)
+mu &lt;-<span class="st"> </span><span class="fl">0.5</span>
+N =<span class="st"> </span><span class="kw">c</span>(n1,n2<span class="op">*</span><span class="dv">2</span>)
+<span class="cf">for</span>(i <span class="cf">in</span> <span class="dv">1</span><span class="op">:</span>m){
+  x &lt;-<span class="st"> </span><span class="kw">matrix</span>(<span class="kw">rnorm</span>(n1<span class="op">*</span>p),<span class="dt">ncol=</span>p);
+  y &lt;-<span class="st"> </span><span class="kw">cbind</span>(<span class="kw">rnorm</span>(n2<span class="op">*</span><span class="dv">2</span>),<span class="kw">rnorm</span>(n2<span class="op">*</span><span class="dv">2</span>,<span class="dt">mean=</span>mu));
+  z &lt;-<span class="st"> </span><span class="kw">rbind</span>(x,y)
+  p.values[i,<span class="dv">1</span>] &lt;-<span class="st"> </span><span class="kw">eqdist.nn</span>(z,N,k)<span class="op">$</span>p.value<span class="co">#NN method</span>
+  p.values[i,<span class="dv">2</span>] &lt;-<span class="st"> </span><span class="kw">eqdist.etest</span>(z,<span class="dt">sizes=</span>N,<span class="dt">R=</span>R)<span class="op">$</span>p.value<span class="co">#energy methods</span>
+  p.values[i,<span class="dv">3</span>] &lt;-<span class="st"> </span><span class="kw">bd.test</span>(<span class="dt">x=</span>x,<span class="dt">y=</span>y,<span class="dt">R=</span><span class="dv">999</span>,<span class="dt">seed=</span>i<span class="op">*</span><span class="dv">12345</span>)<span class="op">$</span>p.value<span class="co"># ball method</span>
+}
+alpha &lt;-<span class="st"> </span><span class="fl">0.05</span>;
+pow &lt;-<span class="st"> </span><span class="kw">colMeans</span>(p.values<span class="op">&lt;</span>alpha)
+pow</code></pre></div>
+<pre><code>## [1] 0.200 0.706 0.554</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">power &lt;-<span class="st"> </span><span class="kw">data.frame</span>(<span class="dt">methods =</span> <span class="kw">c</span>(<span class="st">'NN'</span>,<span class="st">'energy'</span>,<span class="st">'Ball'</span>),pow)
+<span class="kw">ggplot</span>(power,<span class="kw">aes</span>(methods,pow))<span class="op">+</span><span class="co">#plot</span>
+<span class="st">  </span><span class="kw">geom_col</span>(<span class="dt">fill =</span> <span class="st">'palegreen3'</span>)<span class="op">+</span>
+<span class="st">  </span><span class="kw">coord_flip</span>()</code></pre></div>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAMAAAAjXV6yAAAA4VBMVEUAAAAAADoAAGYAOpAAZmYAZrYzMzM6AAA6ADo6AGY6Ojo6OpA6kNtNTU1NTW5NTY5Nbo5NbqtNjqtNjshmAABmADpmAGZmtttmtv9uTU1uTW5uTY5ubo5ubqtujshuq+R8zXyOTU2OTW6OTY6Obk2Obm6ObquOjo6OyP+QOgCQOjqQZgCQkGaQ2/+rbk2rbm6rbo6rjk2ryKur5Mir5OSr5P+2ZgC2///Ijk3Ijm7IyI7I///bkDrb/7bb///kq27k///r6+v/tmb/yI7/25D/5Kv//7b//8j//9v//+T///+BOcmPAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAGoUlEQVR4nO3cAVvaRgDGcaqj1s1oO92GWsdcncOt6roNYYMWiiJw3/8D7S4JBETyJilGWP7v86yGvcbgz7tLSiUlQ2JTeu4nsOoBSAQgEYBEABIBSGQ5QJ8nmdp8mDyrL/+KAIkKIFEBJCqARAWQqAASFUCiAkhUAIkKIFE9FdBPmQIQQOMABBBAwSZA8RVAogJIVACJCiBRASQqgEQFkKgAEhVAogJIVACJCiBRASQqgEQFkKgAEhVAogJIVACJCiBRASQqgEQFkKgAElUmoP5hzf153JpsAPQAaK8VAoUbAM0CHf+7HwCNNwB6ANRq1gKgcMP+z5c20adkBFrdpAUanHcDoGAjLCL4wo8g06kGQMEGQHNAo+s/AyB/A6A5IP9UNtkAaB7IdEIgtwFQskRfFyCAAAo2AYqvABIVQKICSFQAiQogUQEkKoBEBZCoABIVQKICSFQAiQogUQEkKoBEBZCoABIVQKICSFQAiQogUQEkKoBE9VRAS/9WAXqSCiBRASQqgEQFkKgAEtXqAmW7DlqdACQCkAhAIgCJACQSD3R/ULk/KG00AFoAdFM27Y1GuwzQ40B2AA0vyqaXfggVB+j+YAeghUDDi53ei0s30QB6fA262yqVzc3mJ4A4zS8KQCKLgewF0Dgs0otGUNvR2HMZI2jhad594DQP0OIkmmI7aX0KA2R6bo1OvwQVByhrAAIoSNtNsfRLUGGAWKQ5zasAJMIUE2GRFuE0LwKQSDzQ3RavB8UBuX/zyZaCAD14qWxw6u21TP/kg+fVJo/enu217ObrX+ruRoon3UIBDS9mgJpV09k3/cOquX3TnTyq+cXtbv3W/lk1y7nR5OpkbnLMrEEzl4iDn+tm8M6/n5u7r2T0yH4wo+v64Lz7T71AU2zuRXs7kTxvtz4GmnpkJ5YFGl3/dd4tENBc3EAxwa0BHVD0KBxBpvNrdfy5BQF68Hexpr/4hEBTj8I1yPSP6sUGsrPKMYRA0SO3+a0dQaM/WoUCak/WoARXQz7bj5OHhQBK/E+Goyu3XJvO7mSGFQUoewoDZKdZpc2vvywEutn8GPwWHkCLfwWvwkuuAMUkfoq13RTjNemYRbrHa9Kc5uMDkEg8EK9J85q0ijrNAxQ/ggCKX4MyXCIWC4hFWr7bJ9P4KQwQizSLtIxYg7ZZpOOnGO/2iR9BmQMQQAAFAUgEIJEnB+IWXQABFGwCFF8BJCqARAWQqAAS1VMBPfeF3uMBSAQgEYBEABIBSAQgEYBEABIBSAQgEYBEABIBSAQgEYBEABIBSAQgEYBEABIBSAQgEYBEABIBSAQgEYBEABIBSCQXoP6h5/l3VAwfHvu3xAMoAnIc0X3LAHoUyN39zg2lGkALRtBJ191yMtAJgNbhTpyJv8n5pF2D3vj3lgzuyckImgXyp9iVu5er5+0B9DiQadYGp7WZKQbQNJBdgPxbKB7VAZoDGl8HdTzv9VkNoDQBCCCAAAJocQASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUgEIBGARAASAUhkhYCSHf3Jqy//igCJCiBRASQqgEQFkKgAEhVAogJIVACJCiBRLRcoykv9Kc+8V8rdABIBSAQgkWUD/e8CkAhAIgCJACSyLKDBafh21qmtNHsFb6VOu1f4HtG0u42uvN26+OxxlgTknmdnf3YrzV7+W6mPkj3pmSN0ErNO7dasmdukP8QlAQ3etcI3tUZbafa6dc+8mex7nT5C/+1Z4nE38xQTZ0lA/ZOuPwqmt9Ls5ZJhr9H134mn2PRT/JD7FHMjNjh6tJVmL+OmQDXtsUynmnwNinbrH9Z8rkRZmRE0OE3oM3us5EDZnuKqrEH+TzX1sTrufdheQtipp3ieP5CbH+OzWDXFWWz8uSl8Zo+QfARN7dbMf4qFFxnuJ5T+OsjuFYyFhN9rdKwM10HhU9xLeiLjSloEIBGARAASAUgEIBGARAASAUgEIJHVB7p79b5U2vxkzPCiVCrbP3eM6ZUqxtyU8zj8GgBtbTSGF04m+K9tsW6+3rHblTwOvw5AFTeMLnsbDTt0Nhp3243hb+83P9mPeRx+DYBeXRpzf1DpuWlmH9iRc/fNx+8bbiTlkPUDsmtPrzy8+MGtRTlkDYD8Kbbd6L249KeY6W3+XjHtr767zOXw6wA0u0jb0WSpeqV8Ztg6ALnTvDujB6d5mxtrc3+QzwxbC6B85tKCACQCkMjqAz1zABIBSAQgEYBEABIBSOQ/dwgp2OacykAAAAAASUVORK5CYII=" /><!-- --></p>
+<p>The power of energy method is better than NN and ball methods.</p>
+</div>
+<div id="section-15" class="section level2">
+<h2>9.3:</h2>
+<p>Problem statement<br />
+Use the Metropolis-Hastings sampler to generate random variables from a standard Cauchy distribution. Discard the first 1000 of the chain, and compare the deciles of the generated observations with the deciles of the standard Cauchy distribution (see qcauchy or qt with df=1). Recall that a Cauchy <span class="math inline">\((\theta,\eta)\)</span> distribution has density function <span class="math display">\[f(x)=\frac{1}{\theta \pi (1+[(x-\eta)/\theta]^2)},\ \  -\infty &lt; x &lt;\infty,\theta&gt;0\]</span> The standard Cauchy has the Cauchy(<span class="math inline">\(\theta=1,\eta=0\)</span>) density. (Note that the standard Cauchy density is equal to the Student t density with one degree of freedom.)</p>
+<p>Result<br />
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASAAAAEgCAMAAAAjXV6yAAAAulBMVEUAAAAAADoAAGYAOjoAOmYAOpAAZpAAZrY6AAA6ADo6AGY6OgA6OmY6OpA6ZpA6ZrY6kLY6kNtmAABmADpmOgBmOjpmOpBmZmZmkLZmkNtmtttmtv+QOgCQOmaQZgCQZjqQkGaQkLaQtpCQttuQtv+Q2/+2ZgC2Zjq2ZpC2kGa229u22/+2/7a2///bkDrbkGbbtmbbtpDb27bb29vb2//b/7bb/9vb////tmb/25D/27b//7b//9v///8l48v2AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAKIElEQVR4nO2dC3ubNhhGlaxZ0qW72E13abJbt9BtWell60Jq8///1pCEMNiRX4EECHjP08fFxBYfx0ISkgCRk6OIsQOIHQoCUBCAggAUBKAgAAUBKAhAQQAKAlAQgIIAFASgIAAFASgIQEEACgJQEICCABQEoCAABQEoCEBBAAoCUBCAggAUBKAgAAUBKAgQsaDtjTi71/+fV29qf/7jTegNvr4Q4uu9lZMV9OnqNLSgTBSs9lZORdABiQguKBUntwcrpyKofPP2UoiTr+6knwKp6P0LIT77XmWu7Wshntwqc8W+vroSp3f5+6vic8+K/d6sxfn7S3HyMn97UXxqt5kqAZWkVvRwIRMptnn6ZlqCUiFKMUZQuUZ+sPiI3MPL3eqz+0z/udjtQpDm0qjV7BKoCZJrV/LlOvIcZCgFyVxwn79TBYU+xIqfWntbqSLk/H6bGG9nd/k/xbc+v5cfWilBK/ld8bL8vKKeQO0QK7548kr9aVKCir158lf5Vy2oLIkSnankciFCC7ouP/jhz0uZQLG+2F39qozVk8nNcVkdesVHdHaalCC9Rpc4SVlKqKNQ7ppZbuzr9meTgMx9efm6E1RPoFlIJ2WNFreg/TLo05UuUn4vPej9VUfXtVmuC5JGn/z6YW0VVE+gKSi70O+mJaho/vxyaYpUhxykTWzsgqw5SGVW+aepCZLvf9qVOPYySO2ryhhVIf2IIGsZlKrqbjUxQcX+fqOOM1XxyL2x12ImB53df7qxl0G2Wkyu/riW7yclKH9dNWvUecGxdlBVBh0tpOvtoJogWcvfKuMTE5S/kyXQs7u8bDbflQ3hH/QXilVf3h3UYk9+S4tVNkG1BHaCMl2DFbnxOmJBHUn2T/v9mJGgRPVVFLnjkVPb7sxIUHne9dgpuQczEpR/enFRnusHZE6CeoGCABQEoCAABQEoCEBBAAoCUBCAggAUBKAgAAUBKAhAQQAKAlAQgIIAFASgIMC0BZmR0+DTFXdMWlBqBkizg8mpwZiyoO3NboQ96GhqnSkL2qzNNLs86+0gm7Ig5iBEamZqsgyyYCY/95Z/ggsSVsJuZzhCCxpoO63p/AvNQFDmMuNloYISIVYPX97XK3zb9mMTtJ9uL4ISOV9a5R5YzS9SkMo3D0/VhGjUUFyoINn62f6bMwdZSE2+0apqWztoXSxTUJ7q6isTtjJ66YIgFASgoJLUUotREICCABQEWLogOKqxcEF4VGPZghz6pJctyGFUY9mCmIMQeFRj4YLwqEYsgh7pXuhlO62JRdBhchQEkhtXEDvMXKEgAAUBKAhAQYAZCzI3z/JjxoL0nX1850XNWlAewNHcBWlFHhM0Zy5I3vDmOt/edJ9hN2dB8kxdm/GY4ztjQZt1iBslzVnQc+3Hb4r4AgTZBpXbxjOMoBbjUF7b0fd21kypmm8zDuWzHYnJQX4MK6jVKILHdvwZqcOs1TiUx3YCEkpQdcP3o0VMxxwk9t47sFmvqpDshbSemZgNMTbfnIhtrVkdx6FE7ivIDSVI/VTWieQDC3IchxpSUBn5tEZWwwiSu58evdJJfuLhQgkaYmweB3QklUatEUZQIp+CcJ4n9m6zgXMQDsg1uSCC5J7L+c9HTjX0AX+eH04kb25bLXgLcgjINblgghJ56+yj8WzW+tbhtuZ2YEEgoHpj4NgxH+gQO9+s5cNY/HO0WghwiOGAtjfwohrzEqKQVs+C8Ou5D1tI44BgvINW8w4MXs3bLxupJbdkQU7JiWY8HQXhG5e4lolqITpBokq6ayGNq1PHMlEt+J5quJwcuiYXRJC1aVPHrUxUC3HmIFFf1w58IbPEUiYG7w9yPVl1Sk7UBYmugnwr+F08eiEuQaIpSHSJD1WYzvHoBV9BLh1mjsmVgtR/6l8nQQHLxDyPqAwSTUGis6B2DHDFobr83JtKTlOQ6FuQNZ5aYJ4pmJOw7Y9eWbouqCGqfVrqiZaJ3wyhkIdYpu6hknoe81ZaJ5Wd3Kby5DmegUPdtvf8xYIJkkMosp/waH/QwFccys15Vq3hBMmWhxR0rM0x8BWHiRAvD57q3ja54DkosQc07PViRZGoh+HiKoPSI3l62CsON9/q38C3FgsmSDcVj82imuQVhwEFYaZzxaHdS6+CpnPF4S65YIL0vvveQXK+ghJ99KS+7bJdYL4phCGUoMwUzuXYe+cwdms6JKO+2PF7tuTCCKr1lgUYCteB+aYQhkCCamdg05rlipMLJSjQrbSrgYO4BbWOj4IACxBUV9U+vhkLygMJ2n17boIaIxpdBYWMR/8fq6A8HkEdIwgvKG8IypclyKkP+BFBvY+L2RhYkFsf8HIFOfbgmWJneYIc+4B3SpYmyD0H5aWc3KhZhiDHPuBSkEl8SYLc+oBF5WU0QfVWfLWiY1LBgqqSe0xQ6O20iUf9H5+gKvE+BTmPzS9UkPvY/NiCGsf8YIJajKwO1Q6CnRA1JXnvglqMzQ+Ug1pc7bP/bhE5qM3VPvvveiqDXMfmByuDnK72ab7rsxZzHZsXYxfSx5KLoR0kuhuiILcU2lArG12Si6GhuFRBzg3FhQpyrub3zlxbMWVBrg3FXTO/QxRTFtSiC7i7o0nXYtaGooA4b6N/Qb1sp2SCD8MeaDvDQUGAmQjym6h3jNCC/EvF4PiF0kPgwvYyEvt9ChS0x5IF4Rug5IsWhE9W9wJYmCCHU429ABYmyHEu7HIFMQch8KjGXgBLE+R2shqdoHlBQQAKAlAQgIIAFASgIAAFASgIQEEACgJQEICCAP6CVL+w6m3IzA2jDhdG4+GLN36BeAva3hRbTuXTLeQdW9RdWw4XRmOzVl2NHoF4C9L3r0lP3+j+veQ8P1wYjUwPePgEEqgMKn6eytThQphtdIhKrFRntU8ggQQlhY6nMgtnjy2E2UYntCCPQMIIkn3C+hgvXg8XgmyjY2TSik8gQQRlpoymoMeDULU8DzEb5QBwVIV09Rz2CAppMzgVYzVfChq1mn+4MGN2MTYUy+NqzIZiqofu9N3My/b84cJolAVP90B4sgqgIAAFASgIQEEACgJQEICCABQEoCAABQEoCEBBAAoCUBCAggAUBKAgAAUBKAhAQQAKAlAQgIIAFASgIAAFAfoRVLuiPQYeLsTZx11I25sWA/WLyEEHT5JsMdODggA9HmJFxvZ+PLsnclLZZr2SghohRSFI/Wzo9so9Uz6T3QiqQopC0LiTN0uy07+f3+ZGUBVSFILKyyRGJpEzlI2gKqQoBOnLgMau7tUxXpVBJqQ4BEmSkacobm++KzJNJciEFI+gsVuM6dl/RTndEKQKoxgEVROBR6QsmatCusPc5B5zUCZGnwScnN3LR11UOciENLqgyIivJR0ZFASQZ/O1m3jxbD4kFASgIAAFASgIQEEACgJQEICCABQEoCAABQEoCEBBAAoCUBCAggAUBKAgAAUBKAjwP0vuDX4Er1+OAAAAAElFTkSuQmCC" /><!-- --></p>
+<pre><code>##      observations expectations
+## 0%   -15.10789421         -Inf
+## 10%   -2.80566460   -3.0776835
+## 20%   -1.45826801   -1.3763819
+## 30%   -0.80244110   -0.7265425
+## 40%   -0.39272218   -0.3249197
+## 50%   -0.09216692    0.0000000
+## 60%    0.21584921    0.3249197
+## 70%    0.58196503    0.7265425
+## 80%    1.14386577    1.3763819
+## 90%    2.42261719    3.0776835
+## 100%  27.43901906          Inf</code></pre>
+</div>
+<div id="homework-7" class="section level2">
+<h2>Homework 7</h2>
+</div>
+<div id="section-16" class="section level2">
+<h2>11.4:</h2>
+<p>Problem statement Find the intersection points A(k) in (0 ,<span class="math inline">\(\sqrt k\)</span>) of the curves</p>
+<p>$ S_{k-1}(a)=P t(k-1) &gt;\sqrt { )$</p>
+<p>and</p>
+<p>$ S_{k}(a)=P t(k) &gt; $</p>
+<p>354 Statistical Computing with R for k = 4 : 25 ,100,500,1000, where t(k) is a Student t random variable with k degrees of freedom. (These intersection points determine the critical values for a t-test for scale-mixture errors proposed by Sz??ekely [260].</p>
+<p>Result</p>
+<pre><code>##  [1]  1.492103  1.533549  1.562768  1.584421  1.601182  1.614523  1.625387
+##  [8]  1.634409  1.642025  1.648540  1.654177  1.659098  1.663451  1.667288
+## [15]  1.670736  1.673841  1.676588  1.679139  1.681461  4.795822  4.898969
+## [22]  4.999990  9.999990 22.360670 31.622767</code></pre>
+<pre><code>## [1]   23   24   25  100  500 1000</code></pre>
+<p><img src="data:image/png;base64,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" /><!-- --><img src="data:image/png;base64,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" /><!-- --></p>
+<pre><code>##        4        5        6        7        8        9       10       11 
+## 1.492103 1.533549 1.562768 1.584421 1.601182 1.614523 1.625387 1.634409 
+##       12       13       14       15       16       17       18       19 
+## 1.642025 1.648540 1.654177 1.659098 1.663451 1.667288 1.670736 1.673841 
+##       20       21       22       23       24       25      100      500 
+## 1.676588 1.679139 1.681461 1.683594 1.685546 1.687347 1.720601 1.729747 
+##     1000 
+## 1.730911</code></pre>
+</div>
+<div id="homework-8" class="section level2">
+<h2>Homework 8</h2>
+</div>
+<div id="section-17" class="section level2">
+<h2>11.6</h2>
+<p>Problem statement Write a function to compute the cdf of the Cauchy distribution, which has density <span class="math display">\[\frac{1}{\theta\pi(1+[(x-\eta)/\theta]^2),-\infty&lt;x&lt;\infty}\]</span>, where <span class="math inline">\(\theta&gt;0\)</span>. Compare your results to the results from the R function pcauchy. (Also see the source code in pcauchy.c.)</p>
+<p>Result</p>
+<pre><code>## [1] 0.5</code></pre>
+<pre><code>## [1] 0.5</code></pre>
+<pre><code>## [1] 0.3524164</code></pre>
+<pre><code>## [1] 0.3524164</code></pre>
+</div>
+<div id="a-b-o-blood-type-problem" class="section level2">
+<h2>: A-B-O blood type problem</h2>
+<p>Problem statement<br />
+Let the three alleles be A, B, and O.</p>
+<pre><code>## Warning in rbind(Genotype = c(&quot;AA&quot;, &quot;BB&quot;, &quot;OO&quot;, &quot;AO&quot;, &quot;BO&quot;, &quot;AB&quot;),
+## Frequency = c(&quot;p2&quot;, : number of columns of result is not a multiple of
+## vector length (arg 1)</code></pre>
+<pre><code>## Warning in kable_markdown(x = structure(c(&quot;Genotype&quot;, &quot;Frequency&quot;,
+## &quot;Count&quot;, : The table should have a header (column names)</code></pre>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left">Genotype</td>
+<td align="center">AA</td>
+<td align="center">BB</td>
+<td align="center">OO</td>
+<td align="center">AO</td>
+<td align="center">BO</td>
+<td align="center">AB</td>
+<td align="center">AA</td>
+</tr>
+<tr class="even">
+<td align="left">Frequency</td>
+<td align="center">p2</td>
+<td align="center">q2</td>
+<td align="center">r2</td>
+<td align="center">2pr</td>
+<td align="center">2qr</td>
+<td align="center">2pq</td>
+<td align="center">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Count</td>
+<td align="center">nAA</td>
+<td align="center">nBB</td>
+<td align="center">nOO</td>
+<td align="center">nAO</td>
+<td align="center">nBO</td>
+<td align="center">nAB</td>
+<td align="center">n</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>Observed data: <span class="math inline">\(n_{A\cdot}=n_{AA}+n_{AO}=28\)</span> (A-type), <span class="math inline">\(n_{B\cdot}=n_{BB}+n_{BO}=24\)</span> (B-type), <span class="math inline">\(n_{OO}=41\)</span> (O-type), <span class="math inline">\(n_{AB}=70\)</span> (AB-type).</p></li>
+<li><p>Use EM algorithm to solve MLE of <span class="math inline">\(p\)</span> and <span class="math inline">\(q\)</span> (consider missing data <span class="math inline">\(n_{AA}\)</span> and <span class="math inline">\(n_{BB}\)</span>).</p></li>
+<li><p>Record the maximum likelihood values in M-steps, are they increasing?</p></li>
+</ul>
+<p>Result</p>
+<pre><code>##            [,1]      [,2]
+##  [1,] 0.0000000 0.0000000
+##  [2,] 0.2000000 0.3500000
+##  [3,] 0.3162298 0.3089571
+##  [4,] 0.3260961 0.3098301
+##  [5,] 0.3271807 0.3103186
+##  [6,] 0.3273212 0.3104097
+##  [7,] 0.3273409 0.3104241
+##  [8,] 0.3273438 0.3104263
+##  [9,] 0.3273442 0.3104266
+## [10,] 0.3273442 0.3104267
+## [11,] 0.3273442 0.3104267
+## [12,] 0.3273442 0.3104267</code></pre>
+<pre><code>##  [1] 280.5184 283.4461 283.8643 283.9260 283.9351 283.9364 283.9366
+##  [8] 283.9366 283.9366 283.9366</code></pre>
+</div>
+<div id="homework-9" class="section level2">
+<h2>Homework 9</h2>
+</div>
+<div id="p204" class="section level2">
+<h2>3 p204</h2>
+<p>Problem statement Use both for loops and lapply() to fit linear models to the mtcars using the formulas stored in this list: formulas &lt;- list( mpg ~ disp, mpg ~ I(1 / disp), mpg ~ disp + wt, mpg ~ I(1 / disp) + wt )</p>
+<p>Result</p>
+<pre><code>## The following object is masked from package:ggplot2:
+## 
+##     mpg</code></pre>
+<pre><code>## [[1]]
+## 
+## Call:
+## lm(formula = formulas[[i]], data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    29.59985     -0.04122  
+## 
+## 
+## [[2]]
+## 
+## Call:
+## lm(formula = formulas[[i]], data = mtcars)
+## 
+## Coefficients:
+## (Intercept)    I(1/disp)  
+##       10.75      1557.67  
+## 
+## 
+## [[3]]
+## 
+## Call:
+## lm(formula = formulas[[i]], data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         disp           wt  
+##    34.96055     -0.01772     -3.35083  
+## 
+## 
+## [[4]]
+## 
+## Call:
+## lm(formula = formulas[[i]], data = mtcars)
+## 
+## Coefficients:
+## (Intercept)    I(1/disp)           wt  
+##      19.024     1142.560       -1.798</code></pre>
+<pre><code>## [[1]]
+## 
+## Call:
+## lm(formula = x, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    29.59985     -0.04122  
+## 
+## 
+## [[2]]
+## 
+## Call:
+## lm(formula = x, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)    I(1/disp)  
+##       10.75      1557.67  
+## 
+## 
+## [[3]]
+## 
+## Call:
+## lm(formula = x, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)         disp           wt  
+##    34.96055     -0.01772     -3.35083  
+## 
+## 
+## [[4]]
+## 
+## Call:
+## lm(formula = x, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)    I(1/disp)           wt  
+##      19.024     1142.560       -1.798</code></pre>
+</div>
+<div id="section-18" class="section level2">
+<h2>4</h2>
+<p>Problem statement Fit the model mpg ~ disp to each of the bootstrap replicates of mtcars in the list below by using a for loop and lapply().Can you do it without an anonymous function?</p>
+<p>Result</p>
+<pre><code>## [[1]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##     30.0287      -0.0434  
+## 
+## 
+## [[2]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    29.44060     -0.03799  
+## 
+## 
+## [[3]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    28.92155     -0.03918  
+## 
+## 
+## [[4]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    29.10046     -0.04044  
+## 
+## 
+## [[5]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    30.76035     -0.04505  
+## 
+## 
+## [[6]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    31.49804     -0.04948  
+## 
+## 
+## [[7]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    29.77795     -0.04433  
+## 
+## 
+## [[8]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    31.23589     -0.04872  
+## 
+## 
+## [[9]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    27.47647     -0.03299  
+## 
+## 
+## [[10]]
+## 
+## Call:
+## lm(formula = mpg ~ disp, data = bootstraps[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    28.61819     -0.03719</code></pre>
+<pre><code>## [[1]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##     30.0287      -0.0434  
+## 
+## 
+## [[2]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    29.44060     -0.03799  
+## 
+## 
+## [[3]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    28.92155     -0.03918  
+## 
+## 
+## [[4]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    29.10046     -0.04044  
+## 
+## 
+## [[5]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    30.76035     -0.04505  
+## 
+## 
+## [[6]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    31.49804     -0.04948  
+## 
+## 
+## [[7]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    29.77795     -0.04433  
+## 
+## 
+## [[8]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    31.23589     -0.04872  
+## 
+## 
+## [[9]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    27.47647     -0.03299  
+## 
+## 
+## [[10]]
+## 
+## Call:
+## FUN(formula = ..1, data = X[[i]])
+## 
+## Coefficients:
+## (Intercept)         disp  
+##    28.61819     -0.03719</code></pre>
+</div>
+<div id="section-19" class="section level2">
+<h2>5</h2>
+<p>Problem statement For each model in the previous two exercises, extract R2 using the function below. rsq &lt;- function(mod) summary(mod)$r.squared</p>
+<p>Result:</p>
+<pre><code>## [1] 0.7183433 0.8596865 0.7809306 0.8838038</code></pre>
+<pre><code>## [1] 0.7183433 0.8596865 0.7809306 0.8838038</code></pre>
+<pre><code>##  [1] 0.7475099 0.7179526 0.7571433 0.6921848 0.8488426 0.7702828 0.7491175
+##  [8] 0.7843995 0.6779810 0.7887093</code></pre>
+<pre><code>##  [1] 0.7475099 0.7179526 0.7571433 0.6921848 0.8488426 0.7702828 0.7491175
+##  [8] 0.7843995 0.6779810 0.7887093</code></pre>
+</div>
+<div id="p213" class="section level2">
+<h2>3 p213</h2>
+<p>Problem statement The following code simulates the performance of a t-test for non-normal data. Use sapply() and an anonymous function to extract the p-value from every trial.</p>
+<p>Result:</p>
+<pre><code>##   [1] 9.813226e-01 1.619096e-05 6.242135e-01 6.693526e-01 5.677105e-01
+##   [6] 6.610740e-01 5.951636e-01 5.005347e-01 4.763110e-01 3.429965e-01
+##  [11] 8.155394e-01 7.197238e-01 1.244336e-01 2.229164e-01 1.113099e-02
+##  [16] 4.625765e-01 6.515865e-01 1.658793e-01 9.342672e-01 8.011934e-01
+##  [21] 4.627657e-01 5.927934e-01 2.929669e-01 5.737967e-01 3.451537e-02
+##  [26] 2.739138e-01 2.656151e-01 8.196695e-01 6.647355e-01 8.056529e-01
+##  [31] 5.060850e-01 7.106543e-01 2.321066e-01 1.106223e-01 5.459279e-01
+##  [36] 1.865470e-02 2.433776e-01 2.688851e-01 9.819256e-01 4.940184e-01
+##  [41] 3.268275e-01 8.000439e-01 9.822499e-01 1.936454e-01 7.390101e-01
+##  [46] 3.888930e-02 4.350424e-01 7.434339e-02 5.787441e-01 4.864951e-01
+##  [51] 1.476288e-01 5.524909e-01 7.129280e-01 8.683479e-03 9.053256e-02
+##  [56] 4.415463e-01 4.955063e-01 1.745328e-01 6.615399e-01 4.479199e-01
+##  [61] 2.885849e-01 3.028567e-02 1.018907e-01 1.811861e-02 6.376441e-01
+##  [66] 1.408742e-02 9.008128e-02 4.515933e-01 8.703291e-01 7.250768e-01
+##  [71] 8.183571e-01 8.465036e-01 8.786838e-01 1.651543e-01 3.951569e-01
+##  [76] 1.754280e-01 3.649865e-01 7.224226e-02 6.565152e-01 9.946559e-01
+##  [81] 3.715952e-01 8.424336e-02 4.549887e-01 8.530113e-01 1.970777e-01
+##  [86] 2.298117e-01 1.148832e-01 7.769502e-01 4.934348e-01 3.526049e-01
+##  [91] 2.036013e-01 8.838914e-01 6.474880e-02 4.089082e-01 5.780132e-01
+##  [96] 8.011408e-01 5.956061e-01 9.266689e-01 9.923205e-02 1.763972e-01</code></pre>
+</div>
+<div id="section-20" class="section level2">
+<h2>6</h2>
+<p>Problem statement Implement a combination of Map() and vapply() to create an lapply() variant that iterates in parallel over all of its inputs and stores its outputs in a vector (or a matrix). What arguments should the function take?</p>
+<p>Result:</p>
+<pre><code>## [[1]]
+## Sepal.Length  Sepal.Width Petal.Length  Petal.Width      Species 
+##     5.843333     3.057333     3.758000     1.199333           NA 
+## 
+## [[2]]
+##        mpg        cyl       disp         hp       drat         wt 
+##  20.090625   6.187500 230.721875 146.687500   3.596563   3.217250 
+##       qsec         vs         am       gear       carb 
+##  17.848750   0.437500   0.406250   3.687500   2.812500 
+## 
+## [[3]]
+## speed  dist 
+## 15.40 42.98</code></pre>
+<pre><code>## [[1]]
+## Sepal.Length  Sepal.Width Petal.Length  Petal.Width      Species 
+##     5.843333     3.057333     3.758000     1.199333           NA 
+## 
+## [[2]]
+##        mpg        cyl       disp         hp       drat         wt 
+##  20.090625   6.187500 230.721875 146.687500   3.596563   3.217250 
+##       qsec         vs         am       gear       carb 
+##  17.848750   0.437500   0.406250   3.687500   2.812500 
+## 
+## [[3]]
+## speed  dist 
+## 15.40 42.98</code></pre>
+</div>
+<div id="homework-10" class="section level2">
+<h2>Homework 10</h2>
+</div>
+<div id="p365" class="section level2">
+<h2>4 p365</h2>
+<p>Problem statement Make a faster version of <span class="math inline">\(\textbf{chisq.test()}\)</span> that only computes the chi-square test statistic when the input is two numeric vectors with no missing values. You can try simplifying <span class="math inline">\(\textbf{chisq.test()}\)</span> or by coding from the mathematical definition.</p>
+</div>
+<div id="answer" class="section level2">
+<h2>answer</h2>
+<p>As <span class="math inline">\(\textbf{chisq.test()}\)</span> has a long code, we try a shorter one:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">chisq.test2 &lt;-<span class="st"> </span><span class="cf">function</span>(x, y){
+  
+  <span class="co"># Input</span>
+  <span class="cf">if</span> (<span class="op">!</span><span class="kw">is.numeric</span>(x)) {
+    <span class="kw">stop</span>(<span class="st">&quot;x must be numeric&quot;</span>)}
+  <span class="cf">if</span> (<span class="op">!</span><span class="kw">is.numeric</span>(y)) {
+    <span class="kw">stop</span>(<span class="st">&quot;y must be numeric&quot;</span>)}
+  <span class="cf">if</span> (<span class="kw">length</span>(x) <span class="op">!=</span><span class="st"> </span><span class="kw">length</span>(y)) {
+    <span class="kw">stop</span>(<span class="st">&quot;x and y must have the same length&quot;</span>)}
+  <span class="cf">if</span> (<span class="kw">length</span>(x) <span class="op">&lt;=</span><span class="st"> </span><span class="dv">1</span>) {
+    <span class="kw">stop</span>(<span class="st">&quot;length of x must be greater one&quot;</span>)}
+  <span class="cf">if</span> (<span class="kw">any</span>(<span class="kw">c</span>(x, y) <span class="op">&lt;</span><span class="st"> </span><span class="dv">0</span>)) {
+    <span class="kw">stop</span>(<span class="st">&quot;all entries of x and y must be greater or equal zero&quot;</span>)}
+  <span class="cf">if</span> (<span class="kw">sum</span>(<span class="kw">complete.cases</span>(x, y)) <span class="op">!=</span><span class="st"> </span><span class="kw">length</span>(x)) {
+    <span class="kw">stop</span>(<span class="st">&quot;there must be no missing values in x and y&quot;</span>)}
+  <span class="cf">if</span> (<span class="kw">any</span>(<span class="kw">is.null</span>(<span class="kw">c</span>(x, y)))) {
+    <span class="kw">stop</span>(<span class="st">&quot;entries of x and y must not be NULL&quot;</span>)}
+  
+  <span class="co"># compute the theoretical value</span>
+  m &lt;-<span class="st"> </span><span class="kw">rbind</span>(x, y)<span class="co">#the actual value</span>
+  margin1 &lt;-<span class="st"> </span><span class="kw">rowSums</span>(m)
+  margin2 &lt;-<span class="st"> </span><span class="kw">colSums</span>(m)
+  n &lt;-<span class="st"> </span><span class="kw">sum</span>(m)
+  me &lt;-<span class="st"> </span><span class="kw">tcrossprod</span>(margin1, margin2) <span class="op">/</span><span class="st"> </span>n <span class="co">#the theoretical value</span>
+  
+  <span class="co"># Output</span>
+  STATISTIC =<span class="st"> </span><span class="kw">sum</span>((m <span class="op">-</span><span class="st"> </span>me)<span class="op">^</span><span class="dv">2</span> <span class="op">/</span><span class="st"> </span>me)
+  dof &lt;-<span class="st"> </span>(<span class="kw">length</span>(margin1) <span class="op">-</span><span class="st"> </span><span class="dv">1</span>) <span class="op">*</span><span class="st"> </span>(<span class="kw">length</span>(margin2) <span class="op">-</span><span class="st"> </span><span class="dv">1</span>)<span class="co">#degree of freedom</span>
+  p &lt;-<span class="st"> </span><span class="kw">pchisq</span>(STATISTIC, <span class="dt">df =</span> dof, <span class="dt">lower.tail =</span> <span class="ot">FALSE</span>)
+  <span class="kw">return</span>(<span class="kw">list</span>(<span class="dt">X_squared =</span> STATISTIC, <span class="dt">df =</span> dof, <span class="st">`</span><span class="dt">p-value</span><span class="st">`</span> =<span class="st"> </span>p))
+}</code></pre></div>
+<p>Check if <span class="math inline">\(\textbf{chisq.text2()}\)</span> returns the same results:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">a &lt;-<span class="st"> </span><span class="dv">11</span><span class="op">:</span><span class="dv">15</span>
+b &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">11</span>,<span class="fl">12.5</span>,<span class="fl">13.5</span>,<span class="fl">14.5</span>,<span class="fl">15.5</span>)
+m_test &lt;-<span class="st"> </span><span class="kw">cbind</span>(a,b)
+
+<span class="kw">identical</span>(<span class="kw">chisq.test</span>(m_test),<span class="kw">chisq.test2</span>(a, b))</code></pre></div>
+<pre><code>## [1] FALSE</code></pre>
+<p>The results are not same.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">chisq.test</span>(m_test)</code></pre></div>
+<pre><code>## 
+##  Pearson's Chi-squared test
+## 
+## data:  m_test
+## X-squared = 0.0063051, df = 4, p-value = 1</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">chisq.test2</span>(a, b)</code></pre></div>
+<pre><code>## $X_squared
+## [1] 0.006305112
+## 
+## $df
+## [1] 4
+## 
+## $`p-value`
+## [1] 0.999995</code></pre>
+<p>By observing the results, we find that there is a slight difference in p value.</p>
+<p>Finally compare the run time:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">chisq.test2c &lt;-<span class="st"> </span>compiler<span class="op">::</span><span class="kw">cmpfun</span>(chisq.test2)
+
+microbenchmark<span class="op">::</span><span class="kw">microbenchmark</span>(
+  <span class="kw">chisq.test</span>(m_test),
+  <span class="kw">chisq.test2</span>(a,b),
+  <span class="kw">chisq.test2c</span>(a,b)
+)</code></pre></div>
+<pre><code>## Unit: microseconds
+##                expr  min   lq   mean median   uq   max neval
+##  chisq.test(m_test) 75.3 84.2 90.615  85.80 89.6 224.4   100
+##   chisq.test2(a, b) 20.1 24.3 27.613  25.45 28.0  67.7   100
+##  chisq.test2c(a, b) 20.0 24.4 27.044  25.05 27.6  68.3   100</code></pre>
+<p></br></br></p>
+</div>
+<div id="p365-1" class="section level2">
+<h2>5 p365</h2>
+<p>Problem statement<br />
+Can you make a faster version of  for the case of an input of two integer vectors with no missing values? Can you use it to speed up your chi-square test?</p>
+</div>
+<div id="answer-1" class="section level2">
+<h2>answer</h2>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">table2 &lt;-<span class="st"> </span><span class="cf">function</span>(x,y){
+  
+  x_val &lt;-<span class="st"> </span><span class="kw">unique</span>(x)
+  y_val &lt;-<span class="st"> </span><span class="kw">unique</span>(y)
+  mat &lt;-<span class="st"> </span><span class="kw">matrix</span>(0L, <span class="kw">length</span>(x_val), <span class="kw">length</span>(y_val))
+  <span class="cf">for</span> (i <span class="cf">in</span> <span class="kw">seq_along</span>(x)) {
+    mat[<span class="kw">which</span>(x_val <span class="op">==</span><span class="st"> </span>x[[i]]), <span class="kw">which</span>(y_val <span class="op">==</span><span class="st"> </span>y[[i]])] &lt;-
+<span class="st">      </span>mat[<span class="kw">which</span>(x_val <span class="op">==</span><span class="st"> </span>x[[i]]),  <span class="kw">which</span>(y_val <span class="op">==</span><span class="st"> </span>y[[i]])] <span class="op">+</span><span class="st"> </span>1L
+  }
+  dimnames &lt;-<span class="st"> </span><span class="kw">list</span>(x_val, y_val)
+  <span class="kw">names</span>(dimnames) &lt;-<span class="st"> </span><span class="kw">as.character</span>(<span class="kw">as.list</span>(<span class="kw">match.call</span>())[<span class="op">-</span><span class="dv">1</span>])  <span class="co"># R has names for dimnames... :/</span>
+  tab &lt;-<span class="st"> </span><span class="kw">array</span>(mat, <span class="dt">dim =</span> <span class="kw">dim</span>(mat), <span class="dt">dimnames =</span> dimnames)
+  <span class="kw">class</span>(tab) &lt;-<span class="st"> &quot;table&quot;</span>
+  tab
+}</code></pre></div>
+<p>Then check if <span class="math inline">\(\textbf{table2()}\)</span> returns the same results:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">x &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)
+y &lt;-<span class="st"> </span><span class="kw">c</span>(<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>)
+<span class="kw">identical</span>(<span class="kw">table</span>(x,y), <span class="kw">table2</span>(x,y))</code></pre></div>
+<pre><code>## [1] TRUE</code></pre>
+<p>Finally compare the run time:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r">microbenchmark<span class="op">::</span><span class="kw">microbenchmark</span>(<span class="kw">table</span>(x,y), <span class="kw">table2</span>(x,y))</code></pre></div>
+<pre><code>## Unit: microseconds
+##          expr   min     lq    mean median     uq    max neval
+##   table(x, y) 204.0 293.10 417.367 325.75 398.05 1195.3   100
+##  table2(x, y)  61.3  91.95 142.936 105.45 177.05  476.1   100</code></pre>
+</div>
+
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
